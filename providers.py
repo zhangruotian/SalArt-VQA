@@ -20,11 +20,11 @@ class Client:
             from google.genai import errors, types
             self.types = types
             self.client = genai.Client(vertexai=False, api_key=os.environ["GEMINI_API_KEY"],
-                                      http_options=types.HttpOptions(timeout=180_000, **connection))
+                                      http_options=types.HttpOptions(timeout=600_000, **connection))
             self.errors = (errors.APIError,)
         elif provider == "anthropic":
             import anthropic
-            self.client = anthropic.Anthropic(timeout=180, max_retries=2, **connection)
+            self.client = anthropic.Anthropic(timeout=600, max_retries=2, **connection)
             self.errors = (anthropic.APIError,)
         else:
             import openai
@@ -39,7 +39,7 @@ class Client:
                 if not base_url:
                     raise ValueError("--base-url is required for openai-compatible")
                 connection["api_key"] = os.environ.get("OPENAI_API_KEY", "EMPTY")
-            self.client = openai.OpenAI(timeout=180, max_retries=2, **connection)
+            self.client = openai.OpenAI(timeout=600, max_retries=2, **connection)
             self.errors = (openai.APIError,)
 
     def generate(self, prompt, image, mime_type):
