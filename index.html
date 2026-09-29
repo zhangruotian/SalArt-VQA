@@ -11,7 +11,6 @@
     * { box-sizing:border-box; }
     body { margin:0; color:var(--ink); background:#f7faf9; font:15px/1.65 system-ui,sans-serif; }
     main { max-width:1400px; margin:auto; padding:58px 32px 40px; }
-    .eyebrow { color:var(--accent); font-size:12px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; }
     h1 { font-size:clamp(42px,6vw,68px); letter-spacing:-.05em; line-height:1.1; margin:16px 0; }
     .subtitle { max-width:690px; font-size:21px; line-height:1.5; margin:0 0 20px; color:var(--muted); }
     a { color:var(--accent); text-underline-offset:3px; }
@@ -44,17 +43,14 @@
     [aria-sort="ascending"] button::after { content:" ↑"; color:var(--accent); }
     th:nth-child(2),td:nth-child(2),th:nth-child(5),td:nth-child(5),th:nth-child(8),td:nth-child(8),th:nth-child(9),td:nth-child(9) { border-left:1px solid var(--line); }
     .best { color:var(--accent); font-weight:750; }
-    sup { color:var(--accent); padding-left:1px; }
     .notes { color:var(--muted); font-size:13px; max-width:940px; margin-top:18px; }
     .notes p { margin:8px 0; }
-    footer { border-top:1px solid var(--line); margin-top:35px; padding-top:20px; color:var(--muted); font-size:13px; }
     :focus-visible { outline:3px solid #72bbad; outline-offset:3px; }
     @media(max-width:600px) { main { padding:30px 18px; } .stats { gap:24px; } .stats b { font-size:22px; } input { width:100%; } .controls label:first-child { flex:1 1 100%; } #count { margin-left:0; } }
   </style>
 </head>
 <body>
 <main>
-  <div class="eyebrow">NeurIPS 2026 · Visual understanding</div>
   <h1>SalArt-VQA</h1>
   <p class="subtitle">Can vision-language models identify and ground salient artifacts in AI-generated images?</p>
   <nav aria-label="Project links">
@@ -83,13 +79,11 @@
       <tbody id="results"></tbody>
     </table>
   </div>
-  <noscript>Enable JavaScript to sort and filter, or <a href="paper/table1.json">download the results as JSON</a>.</noscript>
+  <noscript>Enable JavaScript to view the leaderboard.</noscript>
   <div class="notes">
-    <p><b>Q1</b> detects artifacts: recall on artifact images, specificity on real references. <b>All Q1–4</b> requires all four answers on an image to be correct; <b>All Q2–4</b> requires all three downstream answers to be correct.</p>
-    <p><b>Ref-Real</b>: real-image references. <b>Ref-PG</b>: paired generated references, evaluated on Q2–4 only. Overall Q1 and All Q1–4 use 831 images; Overall All Q2–4 uses all 950. Bold values mark the best score among the models currently shown.</p>
-    <p>† Published values are shown. Recomputing archived answers gives 24.74% for Gemini 3.1 Flash Lite and 20.32% for Gemma-4-31B-it on Overall All Q2–4. <a href="https://github.com/zhangruotian/SalArt-VQA#recompute-table-1">Reproduce the counts</a> · <a href="paper/table1.json">Download JSON</a></p>
+    <p><b>All Q1–4 / Q2–4</b>: all indicated answers on the same image must be correct. <b>Ref-Real</b>: real references. <b>Ref-PG</b>: generated references (Q2–4 only).</p>
+    <p>Overall Q1 and All Q1–4 use 831 images; All Q2–4 uses 950. Bold marks the best score among the models shown.</p>
   </div>
-  <footer>Xiaoxiao Sun, Ruotian Zhang, Junzhe Huang, James Burgess, Serena Yeung-Levy</footer>
 </main>
 <script>
   const columns = [
@@ -123,10 +117,6 @@
       for (const [key] of columns.slice(1)) {
         const td = document.createElement('td'); td.textContent = model.scores[key].toFixed(2);
         if (model.scores[key] === best[key]) td.className = 'best';
-        if (model.recomputed_scores?.[key] !== undefined) {
-          const note = document.createElement('sup'); note.textContent = '†';
-          note.title = `Recomputed from archived answers: ${model.recomputed_scores[key].toFixed(2)}%`; td.append(note);
-        }
         tr.append(td);
       }
       body.append(tr);
