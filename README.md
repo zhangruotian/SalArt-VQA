@@ -2,7 +2,7 @@
 
 **Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images**
 
-[Paper](https://arxiv.org/abs/2606.12671) · [Dataset](https://huggingface.co/datasets/salartvqa/SalArt-VQA) · [Leaderboard](https://zhangruotian.github.io/SalArt-VQA/)
+[Paper](https://arxiv.org/abs/2606.12671) · [Benchmark](https://huggingface.co/datasets/salartvqa/SalArt-VQA) · [Leaderboard](https://zhangruotian.github.io/SalArt-VQA/)
 
 950 images and 3,681 questions covering artifact detection, region selection, box grounding, and evidence selection.
 
