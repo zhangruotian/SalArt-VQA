@@ -1,0 +1,950 @@
+{"row_id": "salart_ee751cb2d782", "q1": "yes", "q2": "C", "q3": "D", "q4": "B"}
+{"row_id": "salart_bdd3640a1415", "q1": "yes", "q2": "E", "q3": "D", "q4": "E"}
+{"row_id": "salart_77cb339a1af1", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_bb1f88e5ffa4", "q1": "yes", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_dc1eeb2da802", "q1": "yes", "q2": "C", "q3": "C", "q4": "A"}
+{"row_id": "salart_e0531e688b69", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_b71fd1a422ed", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_2c36ccd76cbc", "q1": "no", "q2": "E", "q3": "B", "q4": "E"}
+{"row_id": "salart_7169cbb41583", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_2bf4b0debcfe", "q1": "yes", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_58d6ee7c8fbb", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_14cbc44a756b", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_37c33b5393c5", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_cebc2bfef7d1", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_83fd51355761", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_9674709dc583", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_864ed07b954b", "q1": "yes", "q2": "D", "q3": "B", "q4": "B"}
+{"row_id": "salart_9ced0ac190a7", "q1": "yes", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_f9a8329d76eb", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_e7e8f5d26322", "q1": "yes", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_f8169d0637f3", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_d32518513ba0", "q1": "yes", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_dfaf63462047", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_548cf1ae4686", "q1": "no", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_e262710ca15d", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_8d973a2d1b81", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_098250caea28", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_0228f922a352", "q1": "no", "q2": "C", "q3": "C", "q4": "E"}
+{"row_id": "salart_35ee09a7cd59", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_b89913abe074", "q1": "no", "q2": "B", "q3": "B", "q4": "E"}
+{"row_id": "salart_e8268787cd2d", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_5cc660435049", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_754c046f9d15", "q1": "yes", "q2": "B", "q3": "A", "q4": "C"}
+{"row_id": "salart_135edd1e8b68", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_8d5405f7f8ae", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_902da55764e7", "q1": "yes", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_0f887878d963", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_63168fb4e402", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_9b36fca3b215", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_ea33c768fc60", "q1": "yes", "q2": "E", "q3": "A", "q4": "C"}
+{"row_id": "salart_9907c0e51b54", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_a8c5b65db6dd", "q1": "no", "q2": "B", "q3": "E", "q4": "E"}
+{"row_id": "salart_e3d6b15765e6", "q1": "yes", "q2": "B", "q3": "A", "q4": "C"}
+{"row_id": "salart_c48731cbcc41", "q1": "no", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_3e57a51cdb4c", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_401fb79800ba", "q1": "yes", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_078c91b83896", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_dd438cdd548d", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_84ddaad4cb10", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_1d7463f8c7f3", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_7701d0fd67eb", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_c9c034862d2d", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_0a36ce8c57a4", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_cac6a1769917", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_82a3b90eda8d", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_6e18795883ae", "q1": "yes", "q2": "A", "q3": "C", "q4": "E"}
+{"row_id": "salart_535281209f22", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_123accd615f7", "q1": "no", "q2": "E", "q3": "B", "q4": "E"}
+{"row_id": "salart_c3a2dd2cfbd0", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_e95658aa559c", "q1": "no", "q2": "A", "q3": "C", "q4": "E"}
+{"row_id": "salart_366f7355e8f2", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_659e9b8c8f8c", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_b53a0374e6a9", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_12c10f1f7451", "q1": "no", "q2": "C", "q3": "C", "q4": "E"}
+{"row_id": "salart_bdff4b39eae0", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_61dfd9cee46e", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_db40fc961c41", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_48fe2c748471", "q1": "yes", "q2": "B", "q3": "E", "q4": "E"}
+{"row_id": "salart_abd28db6f793", "q1": "yes", "q2": "A", "q3": "B", "q4": "A"}
+{"row_id": "salart_2a5e2fdf115f", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_8893a28d2493", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_7d44152f9974", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_ff64e82c506d", "q1": "yes", "q2": "A", "q3": "A", "q4": "C"}
+{"row_id": "salart_8bc7dfb1470e", "q1": "yes", "q2": "C", "q3": "A", "q4": "A"}
+{"row_id": "salart_165a365e1546", "q1": "yes", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_3767baf1c6da", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_450dbebdff06", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_f5d864c74762", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_62fedf3aef57", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_ecc075f724cb", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_68affef529d8", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_41d1f237b724", "q1": "yes", "q2": "E", "q3": "C", "q4": "E"}
+{"row_id": "salart_959a294c3e8a", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_b093dcd10a6b", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_8b103d89c93e", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_e82ef1b4bc0c", "q1": "yes", "q2": "A", "q3": "B", "q4": "A"}
+{"row_id": "salart_e588ad7f48a2", "q1": "yes", "q2": "A", "q3": "C", "q4": "A"}
+{"row_id": "salart_5452421de86c", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_f013ac1128e6", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_3a45c02f3aeb", "q1": "yes", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_cdf5a706f41a", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_61b57a8753bc", "q1": "yes", "q2": "A", "q3": "A", "q4": "D"}
+{"row_id": "salart_59b7cb11e819", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_cb6e5abbcf70", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_f175b4c71831", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_40121138ec38", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_77efbfc509ee", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_9910d90991db", "q1": "yes", "q2": "B", "q3": "D", "q4": "B"}
+{"row_id": "salart_e579f12a469f", "q1": "yes", "q2": "C", "q3": "B", "q4": "C"}
+{"row_id": "salart_c2080ce49ec7", "q1": "no", "q2": "E", "q3": "A", "q4": "D"}
+{"row_id": "salart_046994059079", "q1": "yes", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_ea7f474f2000", "q1": "yes", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_168fc19beffb", "q1": "yes", "q2": "A", "q3": "D", "q4": "B"}
+{"row_id": "salart_422e6a08491c", "q1": "yes", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_b2c5d443899d", "q1": "yes", "q2": "C", "q3": "D", "q4": "A"}
+{"row_id": "salart_c63758c9b8f2", "q1": "yes", "q2": "A", "q3": "A", "q4": "C"}
+{"row_id": "salart_206b0da3f862", "q1": "yes", "q2": "B", "q3": "D", "q4": "C"}
+{"row_id": "salart_9b34c85102a1", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_aaa5292b2d98", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_43b1f93dc331", "q1": "no", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_6e84e87cd060", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_857b643c8779", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_e9ee44a9f58c", "q1": "yes", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_914e106414ea", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_cc6519f0b88d", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_eb541caec53c", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_2c3b5034af13", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_de375322b31e", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_fe71e4e98917", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7003fe8fe76a", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_8df566ed147d", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_3a12c86c7e6e", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_61ed11373704", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_df7c0a5f20de", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_e1fc12d789bf", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_5620ed98a29c", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_dd1c16f3c946", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_79ab3bbe46b1", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_073102fda77f", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_856c50680fd8", "q2": "A", "q3": "A", "q4": "C"}
+{"row_id": "salart_ba8060719e2f", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_b684a7badadc", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_26dc0f51ffba", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_539ea7ceeb06", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_da6c70a29602", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_00ea8947d8dd", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_e75da4c4296a", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_915f21e6c1d9", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_529ef9b97eb1", "q1": "yes", "q2": "A", "q3": "A", "q4": "C"}
+{"row_id": "salart_874dab7d8eac", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_55b6d2321695", "q1": "yes", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_0fe204dc20a6", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_de3f05f8756a", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_fae607a4538a", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_336b70029f39", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7db8fcc6103e", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_3e6895c2195c", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_1f125368bd65", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_51914796319b", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_d2e71d057368", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_e0af0fd2b881", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_609a3b599e24", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_42f5554b3718", "q1": "yes", "q2": "C", "q3": "C", "q4": "B"}
+{"row_id": "salart_a2b7901a4019", "q2": "D", "q3": "B", "q4": "B"}
+{"row_id": "salart_9903f14282ab", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7404125d8d3c", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_57bb2d4572e0", "q1": "yes", "q2": "A", "q3": "D", "q4": "A"}
+{"row_id": "salart_31c8e4e1e3f2", "q2": "D", "q3": "A", "q4": "A"}
+{"row_id": "salart_086fb9abee34", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_129a2206e3b6", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_73b3dff6ba8d", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_5f4bde641200", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_b0c6ff52a2c8", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_90a5a5e9cf4b", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_06566c635425", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_5bee411c3333", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_545ed8add7e1", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_d719fa412a4e", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_dd75df4e16be", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_e85debd32fa5", "q2": "C", "q3": "A", "q4": "A"}
+{"row_id": "salart_e2c4d1a57896", "q1": "yes", "q2": "C", "q3": "C", "q4": "A"}
+{"row_id": "salart_e332ae01aeb9", "q2": "C", "q3": "C", "q4": "A"}
+{"row_id": "salart_11a2309b9f25", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_fe7ba9d21779", "q2": "B", "q3": "D", "q4": "C"}
+{"row_id": "salart_6ee6150459cb", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_67a7a9a6da34", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_8d9fb21b4dd7", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_cab80ea21b68", "q2": "D", "q3": "B", "q4": "B"}
+{"row_id": "salart_3070b760958b", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_02a6e4e183a6", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_7dc98dfd1947", "q1": "yes", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_214735081cde", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_e162b1913d1d", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_356f25545fe6", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_45d9774d4473", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_fbff2e5368c6", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_32db302bb6d6", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_0d040fadbcac", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_ff11de7d8367", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_b6d723f4cc26", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_46f4a40d3b64", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_17e67c24447f", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_f11a86219d13", "q1": "yes", "q2": "B", "q3": "D", "q4": "B"}
+{"row_id": "salart_7635b640245a", "q2": "D", "q3": "C", "q4": "B"}
+{"row_id": "salart_7fb722a62cad", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7d7ed8e1c1a1", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_c1919884858a", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_18f6163d8850", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_bfdc2b85cd95", "q1": "yes", "q2": "C", "q3": "C", "q4": "A"}
+{"row_id": "salart_a7115472f31e", "q2": "A", "q3": "C", "q4": "A"}
+{"row_id": "salart_e21c6d66dff4", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_0b5fba0290c6", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_a1cc295c1cc3", "q1": "yes", "q2": "A", "q3": "B", "q4": "E"}
+{"row_id": "salart_6e247935360d", "q2": "A", "q3": "B", "q4": "B"}
+{"row_id": "salart_d9a83fc6b62d", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_3e97c935567f", "q2": "B", "q3": "C", "q4": "B"}
+{"row_id": "salart_454a2ff0a8ac", "q1": "yes", "q2": "C", "q3": "B", "q4": "B"}
+{"row_id": "salart_3b1d5a9fb1c3", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_63d3a1effaf0", "q1": "yes", "q2": "B", "q3": "C", "q4": "B"}
+{"row_id": "salart_9d6edb0d9f33", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_706e271ce334", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_76fca3d8e9b5", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_90f151e5fd8a", "q1": "yes", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_aabf557bb9aa", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_90e3b154aa8e", "q1": "yes", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_8e5ae3e0cd78", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_9872c14cf118", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_934231dbfa4a", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_ff309aebcb4c", "q1": "no", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_c913a1f68ffd", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_db9f7b1fd2e5", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_737d10dccda6", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_6546180b880d", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_8dd60335f0a2", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_8c68c2fb2cb3", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_b0d99fd10642", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_748d7a050bf5", "q1": "yes", "q2": "D", "q3": "C", "q4": "C"}
+{"row_id": "salart_7cdefe6f2dfd", "q2": "C", "q3": "D", "q4": "C"}
+{"row_id": "salart_789f359e1b00", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_34db13c1b042", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_cac7b1a0b6f9", "q1": "yes", "q2": "D", "q3": "A", "q4": "B"}
+{"row_id": "salart_1df19a085ce1", "q2": "D", "q3": "A", "q4": "B"}
+{"row_id": "salart_506ac0f5e0dd", "q1": "yes", "q2": "C", "q3": "B", "q4": "B"}
+{"row_id": "salart_c16ba013cab3", "q2": "C", "q3": "B", "q4": "B"}
+{"row_id": "salart_eb3d00263ec4", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_aaa4675bbdfb", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_63e03742f642", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_367407c5c0da", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_e77d0874f724", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_6d303518770c", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_8aff9729ce7f", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_62fa84c81154", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_7d931d8fccae", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_ad8d595f3a4b", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_90dfee7e3176", "q1": "yes", "q2": "B", "q3": "C", "q4": "C"}
+{"row_id": "salart_c1bec13efcce", "q2": "B", "q3": "C", "q4": "C"}
+{"row_id": "salart_b156d58cde39", "q1": "yes", "q2": "D", "q3": "A", "q4": "C"}
+{"row_id": "salart_4357ebfe3975", "q2": "D", "q3": "D", "q4": "C"}
+{"row_id": "salart_181a4124c1a6", "q1": "yes", "q2": "C", "q3": "B", "q4": "B"}
+{"row_id": "salart_41c6593d2487", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_3e5641e9611b", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7c47a2226f71", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_a5a01022da08", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7ee8b6fdd6ad", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_d895dd07f5ab", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_7db8d0729c5d", "q2": "B", "q3": "A", "q4": "D"}
+{"row_id": "salart_89b210ec8cea", "q1": "yes", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_67bbf3ea6371", "q2": "A", "q3": "A", "q4": "C"}
+{"row_id": "salart_faca6f4fcad7", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_db33d74c01ed", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_46ffbba38ee4", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_d5e122118444", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_7b81e6884669", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_b2a5bd7c3584", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_d45a61208dc4", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_1872baa634e7", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_73dacc749296", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_4cbdbb5032e5", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_7df4bcba3799", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_a820a5a95b7a", "q2": "B", "q3": "D", "q4": "B"}
+{"row_id": "salart_c8f24cf85b3e", "q1": "yes", "q2": "C", "q3": "D", "q4": "C"}
+{"row_id": "salart_a0b0cb291c37", "q2": "D", "q3": "D", "q4": "C"}
+{"row_id": "salart_ddef6fb5b881", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_69fc90eba661", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_d1e33dbe2527", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_924640e15dee", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_7cd6ce17e7f8", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_6ead82a814cf", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_ddbbcb9b781f", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_db6052188ea6", "q2": "C", "q3": "B", "q4": "B"}
+{"row_id": "salart_1d83953d0166", "q1": "yes", "q2": "B", "q3": "A", "q4": "D"}
+{"row_id": "salart_f73510515586", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_579e1ee20c2e", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_331f9b2c2a68", "q2": "A", "q3": "C", "q4": "A"}
+{"row_id": "salart_1163caf2276e", "q1": "yes", "q2": "D", "q3": "D", "q4": "A"}
+{"row_id": "salart_41defef7600b", "q2": "D", "q3": "D", "q4": "A"}
+{"row_id": "salart_414a67ca7827", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_80d00e272fae", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_e4417ad83c02", "q1": "yes", "q2": "A", "q3": "B", "q4": "B"}
+{"row_id": "salart_29296ee5514e", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_ffc1ab75a2a4", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_5ea5364a38c2", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_02fbf9cca3a7", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_ed2ec2124377", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_4186edb64c4f", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_c54f75f35aa8", "q2": "D", "q3": "B", "q4": "B"}
+{"row_id": "salart_bb28e5a43333", "q1": "yes", "q2": "D", "q3": "B", "q4": "D"}
+{"row_id": "salart_8568dc283343", "q2": "B", "q3": "B", "q4": "D"}
+{"row_id": "salart_394839c70703", "q1": "yes", "q2": "C", "q3": "A", "q4": "A"}
+{"row_id": "salart_0e9dbb93524c", "q2": "A", "q3": "C", "q4": "C"}
+{"row_id": "salart_9a9ed07433ff", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_4365e24e75d7", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_405727cd4b54", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_d3431777eda3", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_063e1c2206ad", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_b34aab1d6cdc", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_36f48a8d7fc7", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_7619ab03d0b4", "q2": "C", "q3": "D", "q4": "C"}
+{"row_id": "salart_dcb1656bede8", "q1": "yes", "q2": "D", "q3": "C", "q4": "C"}
+{"row_id": "salart_290c6fe1c7a6", "q2": "D", "q3": "C", "q4": "C"}
+{"row_id": "salart_50a58be69ac0", "q1": "yes", "q2": "A", "q3": "D", "q4": "A"}
+{"row_id": "salart_9be211bbcfb0", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_93202bf79f92", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_71ea140fc425", "q2": "B", "q3": "C", "q4": "C"}
+{"row_id": "salart_38b0bf849bd2", "q1": "yes", "q2": "A", "q3": "B", "q4": "B"}
+{"row_id": "salart_e955431d96f6", "q2": "A", "q3": "B", "q4": "B"}
+{"row_id": "salart_8ed9a40503f5", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_a6cad08f47e6", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_4a1c4f000c69", "q1": "yes", "q2": "A", "q3": "A", "q4": "D"}
+{"row_id": "salart_dd46522dc999", "q2": "A", "q3": "B", "q4": "D"}
+{"row_id": "salart_0d08428077f0", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_94ba8966f259", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_76ffc570414c", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_caa14fe06b91", "q2": "D", "q3": "B", "q4": "D"}
+{"row_id": "salart_6e8142ec04a6", "q1": "yes", "q2": "C", "q3": "B", "q4": "C"}
+{"row_id": "salart_e090f469bf37", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_c1ce3d5d079d", "q1": "yes", "q2": "A", "q3": "B", "q4": "B"}
+{"row_id": "salart_48572607d55e", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_7b44cabbf702", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_e40e255024e4", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_793f0570762a", "q1": "yes", "q2": "D", "q3": "B", "q4": "D"}
+{"row_id": "salart_5a46761c93cd", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_44cd606731e9", "q1": "yes", "q2": "C", "q3": "A", "q4": "B"}
+{"row_id": "salart_f37b54b27033", "q2": "A", "q3": "B", "q4": "B"}
+{"row_id": "salart_d3b8a2072ac6", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_1e1b82b3639a", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_1dd81a933648", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_a5224f79b35c", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_06679c2ff4dc", "q1": "yes", "q2": "D", "q3": "C", "q4": "C"}
+{"row_id": "salart_06fe3e259236", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_3f480be24285", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_84f938597f48", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_581136375ae1", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_2b9091f10c3a", "q2": "B", "q3": "C", "q4": "C"}
+{"row_id": "salart_c547b46c3b91", "q1": "yes", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_f8d856b473dc", "q2": "A", "q3": "A", "q4": "C"}
+{"row_id": "salart_be38742268d7", "q1": "yes", "q2": "B", "q3": "C", "q4": "C"}
+{"row_id": "salart_dfba7e7882dc", "q2": "C", "q3": "B", "q4": "C"}
+{"row_id": "salart_3d9e90ce1fe6", "q1": "yes", "q2": "B", "q3": "D", "q4": "A"}
+{"row_id": "salart_480ad7f1f815", "q2": "B", "q3": "D", "q4": "A"}
+{"row_id": "salart_922568267606", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_ea293a8f1eb0", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_1ffbe1dde717", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_0172b4a15ef3", "q1": "no", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_337a8bfdff0a", "q1": "yes", "q2": "B", "q3": "D", "q4": "B"}
+{"row_id": "salart_ac60b04c82cb", "q1": "yes", "q2": "C", "q3": "D", "q4": "E"}
+{"row_id": "salart_e9ab6a92e9c4", "q1": "yes", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_c980aa8ffacf", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_4a4d2ff9d70f", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_f05a6bdc289d", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_e2e0e65e758b", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_457e53bd2453", "q1": "no", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_c4c7f73ff0ff", "q1": "yes", "q2": "D", "q3": "D", "q4": "A"}
+{"row_id": "salart_92e8f094608b", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_c34ac685d705", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_2f6e973c72ac", "q1": "yes", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_fc855f9c1d43", "q1": "yes", "q2": "D", "q3": "C", "q4": "D"}
+{"row_id": "salart_2cadfb6343a3", "q1": "yes", "q2": "E", "q3": "C", "q4": "C"}
+{"row_id": "salart_265583c013f9", "q1": "yes", "q2": "A", "q3": "B", "q4": "A"}
+{"row_id": "salart_b0625b401e04", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_3dbf99e1539f", "q1": "yes", "q2": "D", "q3": "A", "q4": "C"}
+{"row_id": "salart_1209b05ecdfb", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_3c5d2ca4974e", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_948b3190e546", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_45b0ee6dccf3", "q1": "yes", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_b96517823887", "q1": "yes", "q2": "D", "q3": "C", "q4": "D"}
+{"row_id": "salart_d0fbdcf29425", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_16d5edcd9769", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_323acd058e25", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_e0b7c5db4597", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_84f55581f54a", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_57d50699a3a1", "q1": "yes", "q2": "A", "q3": "B", "q4": "A"}
+{"row_id": "salart_4394568fce59", "q1": "yes", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_961d0f51880a", "q1": "yes", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_0f9cdccc372d", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_cf6ff1b5727e", "q1": "yes", "q2": "C", "q3": "A", "q4": "A"}
+{"row_id": "salart_dbe46642bd4a", "q1": "yes", "q2": "B", "q3": "C", "q4": "C"}
+{"row_id": "salart_4c045ee289aa", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_62e8241780d6", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_8b076988d02d", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_ef5fdf2ee112", "q1": "yes", "q2": "C", "q3": "A", "q4": "A"}
+{"row_id": "salart_13c34dfac404", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_60d59db9a72a", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_16ddcc4f592f", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_bd4d2442e996", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_5eaf74f10715", "q1": "no", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_a726591d0aab", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_be108ef834f5", "q1": "yes", "q2": "C", "q3": "B", "q4": "B"}
+{"row_id": "salart_0b57f2f7653a", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_3cb504551a13", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_ec441da3ac19", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_90178d55b400", "q1": "yes", "q2": "A", "q3": "B", "q4": "A"}
+{"row_id": "salart_2a36a7c9d414", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_d9a23cbc30ce", "q1": "yes", "q2": "D", "q3": "A", "q4": "A"}
+{"row_id": "salart_52a2a29d7d3e", "q1": "yes", "q2": "A", "q3": "A", "q4": "D"}
+{"row_id": "salart_40542de7b298", "q1": "yes", "q2": "D", "q3": "A", "q4": "A"}
+{"row_id": "salart_c9bd4b520548", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_ae2a5d452e66", "q1": "yes", "q2": "C", "q3": "A", "q4": "A"}
+{"row_id": "salart_5a854380303f", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_843c8cbd9aeb", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_381e800290a1", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_ecde4aba6083", "q1": "yes", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_8ed7d1296844", "q1": "yes", "q2": "B", "q3": "D", "q4": "C"}
+{"row_id": "salart_b492be523ac2", "q1": "yes", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_91110c6f188e", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_e1fc80988cc2", "q1": "yes", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_45c3e46e44e6", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_d44664a79c4e", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_145868f26c61", "q1": "yes", "q2": "D", "q3": "D", "q4": "A"}
+{"row_id": "salart_7107fce0384d", "q1": "yes", "q2": "B", "q3": "C", "q4": "B"}
+{"row_id": "salart_b80d6c257be9", "q1": "yes", "q2": "E", "q3": "A", "q4": "B"}
+{"row_id": "salart_055e001a98e5", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_dfe13a2c9055", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_76d3d7dc2b18", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_cd9ddc05de15", "q1": "yes", "q2": "D", "q3": "A", "q4": "A"}
+{"row_id": "salart_0b63158fcff9", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_fe41aaa0ab14", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_6ba9c360aed1", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_92cc9326c273", "q1": "yes", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_17a1a7068908", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_7b485b60cebd", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_53b11af4ba98", "q1": "yes", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_4651c41a25d4", "q1": "yes", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_50bac37a54bf", "q1": "no", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_3a7cc7f2a0d8", "q1": "yes", "q2": "A", "q3": "B", "q4": "B"}
+{"row_id": "salart_afafcfd08da5", "q1": "no", "q2": "E", "q3": "C", "q4": "E"}
+{"row_id": "salart_8245e3a98da7", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_2a5624f8a279", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_c33540b5d396", "q1": "yes", "q2": "C", "q3": "C", "q4": "A"}
+{"row_id": "salart_ff354143152d", "q1": "no", "q2": "E", "q3": "D", "q4": "B"}
+{"row_id": "salart_a0b5bda1110c", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_43a7dc72d9a5", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_7829c9f5cc97", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_ad0437022782", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_c831c249658e", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_51ddc1c3be06", "q1": "yes", "q2": "E", "q3": "C", "q4": "E"}
+{"row_id": "salart_db46ae0f46c2", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_a3090f0331e3", "q1": "yes", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_c9ab864b6236", "q1": "yes", "q2": "A", "q3": "C", "q4": "A"}
+{"row_id": "salart_fba8a6a52a28", "q1": "yes", "q2": "B", "q3": "D", "q4": "A"}
+{"row_id": "salart_273f5f880286", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_46e6f5ebdc3d", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_5eee5b53f60c", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_473bdff621e8", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_040c9356c7af", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_cb83ae060b11", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_d3887d174f9b", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_8e4273dc2120", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_ef0e240dc619", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_ff156826d117", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_31c9b53322ad", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_f0cf8e4dff5a", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_c0c03126f3f3", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_aa1c9758e45d", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_6bb50f53a0c8", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_ef13922b6d93", "q1": "no", "q2": "E", "q3": "B", "q4": "C"}
+{"row_id": "salart_d393ce898d4c", "q1": "yes", "q2": "A", "q3": "A", "q4": "C"}
+{"row_id": "salart_907aa0102218", "q1": "no", "q2": "D", "q3": "D", "q4": "E"}
+{"row_id": "salart_f88b3d7c8af7", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_e9a050688f90", "q1": "no", "q2": "A", "q3": "D", "q4": "E"}
+{"row_id": "salart_9bbe7db4e43c", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_1a6babc9effa", "q1": "no", "q2": "E", "q3": "B", "q4": "E"}
+{"row_id": "salart_9f238f7d46d9", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_614bb628bd9e", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_3f666f6f80a1", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_b7bf79cbb3db", "q1": "no", "q2": "A", "q3": "B", "q4": "A"}
+{"row_id": "salart_373e5ad65aac", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_b5c25a8515f5", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_3ae4abcdc5f6", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_f0c8b1500de0", "q1": "yes", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_363e26dcc587", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_38e7a9661250", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_514e4ec08d9c", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_bcb82114bbac", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_fa368aad3a73", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_8806f769c0cf", "q1": "no", "q2": "D", "q3": "D", "q4": "C"}
+{"row_id": "salart_d40ffd08edc6", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_f058308c8df5", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7d6b3b6881bc", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_f71515caae4d", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_428c1dd959a5", "q1": "yes", "q2": "B", "q3": "A", "q4": "D"}
+{"row_id": "salart_510591cfab60", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_60d1cd23f6a7", "q1": "yes", "q2": "D", "q3": "C", "q4": "C"}
+{"row_id": "salart_4adbf2c1c0ef", "q1": "yes", "q2": "C", "q3": "A", "q4": "E"}
+{"row_id": "salart_a074ff0978ca", "q1": "yes", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_a9524d916ac0", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_76ad460268b9", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_5f64ab7aad6e", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_5230c91c7376", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_c7edbffcf96a", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_a320a3ca4159", "q1": "yes", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_3a8d8791d32c", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_bc2ffbcd3029", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_5b10018163cc", "q1": "yes", "q2": "E", "q3": "D", "q4": "E"}
+{"row_id": "salart_452381571b65", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_6730d87b47ff", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_89c99d7c7f5f", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_96d5ab387957", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_2fbf0092b650", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_815061ed6175", "q1": "no", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_9854948d4b7a", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_71962c3f5242", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_02c7da3a5b84", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_9ef78a10d7d1", "q1": "no", "q2": "E", "q3": "A", "q4": "B"}
+{"row_id": "salart_e74fa75b40d7", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_f3adad22cb42", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_11afe68fe875", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_18e885bb5a19", "q1": "yes", "q2": "E", "q3": "C", "q4": "D"}
+{"row_id": "salart_2235002b77f5", "q1": "yes", "q2": "B", "q3": "B", "q4": "D"}
+{"row_id": "salart_85dc8c8b04c6", "q1": "no", "q2": "C", "q3": "A", "q4": "B"}
+{"row_id": "salart_0999262c6071", "q1": "yes", "q2": "A", "q3": "D", "q4": "D"}
+{"row_id": "salart_2584739a7a35", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_bc59d75a11f7", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_96a1f4931c47", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_fc01c6b5c5e8", "q1": "yes", "q2": "C", "q3": "A", "q4": "A"}
+{"row_id": "salart_c5bd33af7b58", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_e7e52f6a2ddf", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_4539f969adeb", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_1e617f6ce826", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_8c5d6c63302f", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_118790e94f94", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_fe381cd2c1d3", "q1": "no", "q2": "A", "q3": "B", "q4": "E"}
+{"row_id": "salart_f044fa545b40", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_ce8b2be3db75", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_e5e5b84d2ce8", "q1": "yes", "q2": "B", "q3": "C", "q4": "B"}
+{"row_id": "salart_4952397e993b", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_ec7b25518635", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_845ef44a5691", "q1": "yes", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_76fd32e3e63f", "q1": "yes", "q2": "C", "q3": "A", "q4": "A"}
+{"row_id": "salart_702f56f4db4e", "q1": "no", "q2": "B", "q3": "B", "q4": "E"}
+{"row_id": "salart_903a596a6523", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_69eae234a68f", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_1e6609e94e2e", "q1": "yes", "q2": "C", "q3": "B", "q4": "B"}
+{"row_id": "salart_6c0e675b80e6", "q1": "yes", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_e7581e865b5d", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_f49c9c794d03", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_72cd0f09f190", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_6acd4519cb9a", "q1": "no", "q2": "E", "q3": "B", "q4": "E"}
+{"row_id": "salart_03db5bda5b71", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_fb38fbcd1558", "q1": "no", "q2": "E", "q3": "C", "q4": "E"}
+{"row_id": "salart_14e38a7c4f57", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_873556598789", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_2ea101970f05", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_15a8c7d80092", "q1": "no", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_41f83235a0cc", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_da15bd211c29", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_632f5b71dff4", "q1": "yes", "q2": "A", "q3": "B", "q4": "A"}
+{"row_id": "salart_71a8f3cb5f4a", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_3acceb8f4720", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_1fdbb9107bdd", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_8e8943e15545", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_3a364bc8c75d", "q1": "no", "q2": "C", "q3": "C", "q4": "E"}
+{"row_id": "salart_e4140df21da7", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_977365555177", "q1": "yes", "q2": "A", "q3": "B", "q4": "C"}
+{"row_id": "salart_4106d0e75afe", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_13475bad1ca9", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_9df41e4ea744", "q1": "yes", "q2": "E", "q3": "B", "q4": "B"}
+{"row_id": "salart_939fcb9c6a36", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_eb81e3aa617b", "q1": "yes", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_12ade1dfdb28", "q1": "no", "q2": "B", "q3": "D", "q4": "E"}
+{"row_id": "salart_3e11b7b0aeb3", "q1": "yes", "q2": "C", "q3": "C", "q4": "B"}
+{"row_id": "salart_659df83b0195", "q1": "yes", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_c740c5c0fd66", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_fa3915e9f771", "q1": "no", "q2": "E", "q3": "B", "q4": "E"}
+{"row_id": "salart_a2228bf6b415", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_33c0d3100320", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_f73ab84a7b35", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_da2c9f5003d3", "q1": "no", "q2": "C", "q3": "C", "q4": "E"}
+{"row_id": "salart_17cd8f2af6c1", "q1": "yes", "q2": "A", "q3": "B", "q4": "B"}
+{"row_id": "salart_58e974d49841", "q1": "no", "q2": "B", "q3": "E", "q4": "E"}
+{"row_id": "salart_ee7eff0eb388", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_e920e6abb852", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_4cc164b9df31", "q1": "yes", "q2": "A", "q3": "A", "q4": "C"}
+{"row_id": "salart_3d5f6ae45c7d", "q1": "yes", "q2": "A", "q3": "B", "q4": "A"}
+{"row_id": "salart_70d2d3fa2eaa", "q1": "yes", "q2": "A", "q3": "B", "q4": "A"}
+{"row_id": "salart_21340ea9d286", "q1": "yes", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_00d2f6e6ed03", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_2574c4343301", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7a2d0b7e690a", "q1": "no", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_376a81214b42", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_a6965762dfec", "q1": "yes", "q2": "C", "q3": "D", "q4": "D"}
+{"row_id": "salart_1a71466c2ac2", "q1": "no", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_e94872166ae5", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_589fcf523a90", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_750fa9617922", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_93497bbc3ced", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_2d14ced626c1", "q1": "yes", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_74e963ed93bc", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_4ac3022b758a", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_3405c5acfe5e", "q1": "yes", "q2": "C", "q3": "C", "q4": "E"}
+{"row_id": "salart_4930cf67c6c6", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_0ffbd0fb1c14", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_b6679900084f", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_f3bfab3a6983", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_d2e19b5da219", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_387a6c3927b7", "q1": "yes", "q2": "B", "q3": "D", "q4": "B"}
+{"row_id": "salart_b65dcf460c28", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_da7cacaa6a6b", "q1": "no", "q2": "E", "q3": "B", "q4": "E"}
+{"row_id": "salart_47f8e6707991", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_8773774d9b8d", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_15c64d97b90b", "q1": "yes", "q2": "A", "q3": "B", "q4": "B"}
+{"row_id": "salart_8add2f10cb9c", "q1": "yes", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_b115349f19b7", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_41cd707b94c0", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_7524cec7b116", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_d85ce8b85bc1", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_b1936edc4b0c", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_53ff81d8379a", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_e0a87e4da004", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_52315ef08169", "q1": "yes", "q2": "B", "q3": "B", "q4": "E"}
+{"row_id": "salart_6e34337039cd", "q1": "yes", "q2": "B", "q3": "D", "q4": "D"}
+{"row_id": "salart_c6cb40cba0f1", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_b3eff8f2142f", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_83178f02df39", "q1": "no", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_80ce9213b063", "q1": "yes", "q2": "A", "q3": "B", "q4": "B"}
+{"row_id": "salart_c8fabd520b3f", "q1": "yes", "q2": "B", "q3": "B", "q4": "E"}
+{"row_id": "salart_94dde77bb1b9", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_6405e2f45b02", "q1": "no", "q2": "B", "q3": "B", "q4": "E"}
+{"row_id": "salart_152d8eda0a94", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_105a566d0643", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_80f42bea6f21", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_1e1199a6f55b", "q1": "yes", "q2": "B", "q3": "B", "q4": "E"}
+{"row_id": "salart_fc9b7f946eb2", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_a294dafa8b45", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_585b7fd91784", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_9002fa4ea9e4", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_eb11b77b1ac9", "q1": "yes", "q2": "B", "q3": "D", "q4": "B"}
+{"row_id": "salart_a55a55ce4020", "q1": "yes", "q2": "C", "q3": "D", "q4": "E"}
+{"row_id": "salart_58e5f96bd176", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_2b6e42ad4fd1", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7fd9cd73202b", "q1": "yes", "q2": "B", "q3": "C", "q4": "C"}
+{"row_id": "salart_888c80bf9bc5", "q1": "no", "q2": "C", "q3": "B", "q4": "E"}
+{"row_id": "salart_319a1da20fee", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_b441f70677fd", "q1": "no", "q2": "E", "q3": "C", "q4": "E"}
+{"row_id": "salart_09fd93f56b9d", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_a8eb237359f2", "q1": "no", "q2": "C", "q3": "E", "q4": "E"}
+{"row_id": "salart_aacf874dd6cb", "q1": "yes", "q2": "D", "q3": "D", "q4": "E"}
+{"row_id": "salart_15b12226f824", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_3e01f9655ac2", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_a4ac01cef55f", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_1b9b65381350", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_aab4358d6eff", "q1": "no", "q2": "B", "q3": "C", "q4": "E"}
+{"row_id": "salart_fa6bbe4f71b0", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_a9baf741b085", "q1": "no", "q2": "E", "q3": "C", "q4": "D"}
+{"row_id": "salart_e23fd714774a", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_7d82d5b3972f", "q1": "no", "q2": "C", "q3": "C", "q4": "E"}
+{"row_id": "salart_57797500d2f0", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_76730ea697eb", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_56d5ed52ffb4", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_3e8be4a7df74", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_affc8e2decd6", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_b6cd1c6d88ee", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_b33a4dc4271d", "q1": "yes", "q2": "D", "q3": "B", "q4": "D"}
+{"row_id": "salart_233fb46985cf", "q1": "yes", "q2": "D", "q3": "B", "q4": "B"}
+{"row_id": "salart_a01b9d3ad510", "q1": "yes", "q2": "D", "q3": "D", "q4": "B"}
+{"row_id": "salart_7acbbbc415e3", "q1": "yes", "q2": "C", "q3": "D", "q4": "E"}
+{"row_id": "salart_26f35f117dfa", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_0dd8edcea9cc", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_f785d30296a0", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_5afaf0ed4bc6", "q1": "no", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_bb8bd94a75be", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_ef4c9ec90735", "q1": "yes", "q2": "D", "q3": "A", "q4": "A"}
+{"row_id": "salart_744bbe21ec01", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_346f7ac55702", "q1": "no", "q2": "E", "q3": "C", "q4": "E"}
+{"row_id": "salart_8282d7ab6ac4", "q1": "yes", "q2": "B", "q3": "B", "q4": "C"}
+{"row_id": "salart_1713798650c8", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_88cd5cec8bc6", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_809beb077760", "q1": "no", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_6418596ba0f4", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_8137a50941e0", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_a4346cc27746", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_ff55d0e90bbe", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_38de1280f036", "q1": "yes", "q2": "A", "q3": "C", "q4": "D"}
+{"row_id": "salart_9cdaf909beb0", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_25e0e8c4f400", "q1": "yes", "q2": "D", "q3": "B", "q4": "D"}
+{"row_id": "salart_7413b49cea0c", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_ccfbb16c2303", "q1": "yes", "q2": "C", "q3": "B", "q4": "A"}
+{"row_id": "salart_c3f8082e0a7f", "q1": "yes", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_e82f56daae26", "q1": "yes", "q2": "C", "q3": "A", "q4": "D"}
+{"row_id": "salart_5732b6c3d374", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_9a6d6c991930", "q1": "yes", "q2": "A", "q3": "B", "q4": "A"}
+{"row_id": "salart_4b4e9b847488", "q1": "yes", "q2": "D", "q3": "D", "q4": "E"}
+{"row_id": "salart_f6140bb49706", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_bb49f5a6f31e", "q1": "no", "q2": "E", "q3": "D", "q4": "E"}
+{"row_id": "salart_12efc59d0f11", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_29deca3ea81e", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_3d0066241309", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_e52d96a73104", "q1": "yes", "q2": "A", "q3": "B", "q4": "E"}
+{"row_id": "salart_7db42be9f2f8", "q1": "yes", "q2": "A", "q3": "A", "q4": "C"}
+{"row_id": "salart_64713bfdbad2", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_fc917c14753c", "q1": "yes", "q2": "D", "q3": "C", "q4": "D"}
+{"row_id": "salart_bcb8c6874c9d", "q1": "no", "q2": "D", "q3": "D", "q4": "E"}
+{"row_id": "salart_00657675b424", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_c2c8d27ca59a", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_dd9773a85706", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_af045893c4b0", "q1": "yes", "q2": "A", "q3": "C", "q4": "E"}
+{"row_id": "salart_01accfe9b80c", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_71e3b9c56f5b", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_c69f6ae07b37", "q1": "yes", "q2": "E", "q3": "C", "q4": "B"}
+{"row_id": "salart_766f5fc52bd5", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_cf9b7fba801a", "q1": "yes", "q2": "D", "q3": "A", "q4": "A"}
+{"row_id": "salart_f8d93ebe044f", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_76fa5037cdf3", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_5e83f1761668", "q1": "no", "q2": "E", "q3": "B", "q4": "A"}
+{"row_id": "salart_fef91f9cbcf3", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_56529f5021e0", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_5304f15f91fa", "q1": "yes", "q2": "B", "q3": "C", "q4": "C"}
+{"row_id": "salart_22c73cc338e7", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_f1c601837c70", "q1": "yes", "q2": "D", "q3": "B", "q4": "D"}
+{"row_id": "salart_34e73baaee38", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_c1ebebf94fb0", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_73e8c7c9c49f", "q1": "yes", "q2": "C", "q3": "A", "q4": "E"}
+{"row_id": "salart_95c1a76d3b78", "q1": "yes", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_58254bdac3bd", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_c016b2d6eb49", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_8bdbe3228583", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_5cced9cab61a", "q1": "yes", "q2": "B", "q3": "B", "q4": "D"}
+{"row_id": "salart_ee3a4263ab41", "q1": "no", "q2": "A", "q3": "E", "q4": "E"}
+{"row_id": "salart_8ca09bdde317", "q1": "yes", "q2": "A", "q3": "A", "q4": "D"}
+{"row_id": "salart_78c9035240a1", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_8241a6625f9d", "q1": "yes", "q2": "D", "q3": "D", "q4": "E"}
+{"row_id": "salart_733afee49236", "q1": "no", "q2": "C", "q3": "B", "q4": "E"}
+{"row_id": "salart_ff3fafbaf1f6", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_0c0e7ad63d62", "q1": "no", "q2": "D", "q3": "D", "q4": "C"}
+{"row_id": "salart_fbc2bf4365a3", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_9217e4e26127", "q1": "yes", "q2": "E", "q3": "C", "q4": "E"}
+{"row_id": "salart_efc33e0667d7", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_5606d6fc197e", "q1": "no", "q2": "C", "q3": "C", "q4": "E"}
+{"row_id": "salart_4ce123aeb7da", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_d54cd00cbca5", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_19b95ab0b812", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_ffd55a4ef77c", "q1": "yes", "q2": "B", "q3": "A", "q4": "D"}
+{"row_id": "salart_d443f7f141d3", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_2e6245a1900a", "q1": "yes", "q2": "A", "q3": "C", "q4": "A"}
+{"row_id": "salart_c02284525356", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_08b6e566d5e9", "q1": "no", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_c16d4075f130", "q1": "yes", "q2": "C", "q3": "B", "q4": "C"}
+{"row_id": "salart_35670ab15962", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_e2c0a6d19140", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_b1e6445a8cc8", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_5c7ed3040abd", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_092a3227b926", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_bf7fe2bc2ff5", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_5f3e9324f322", "q1": "yes", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_49a107d98be4", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_8ba44070ad14", "q1": "yes", "q2": "C", "q3": "C", "q4": "E"}
+{"row_id": "salart_ad95d275b1b9", "q1": "no", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_a7a732817bc4", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_a847054182b7", "q1": "yes", "q2": "A", "q3": "C", "q4": "C"}
+{"row_id": "salart_14ea7add40bb", "q1": "yes", "q2": "E", "q3": "D", "q4": "E"}
+{"row_id": "salart_3a3e032d79e6", "q1": "yes", "q2": "C", "q3": "C", "q4": "E"}
+{"row_id": "salart_259158cce934", "q1": "yes", "q2": "A", "q3": "C", "q4": "E"}
+{"row_id": "salart_5b8dc4bf8976", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_6202d8000a83", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_5a145e6e2312", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_1053cc3c81eb", "q1": "no", "q2": "E", "q3": "B", "q4": "E"}
+{"row_id": "salart_5a1ed93939ad", "q1": "yes", "q2": "B", "q3": "C", "q4": "B"}
+{"row_id": "salart_8c69fbb5465f", "q1": "yes", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_feb31872ff01", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_c91d2bf9748c", "q1": "yes", "q2": "E", "q3": "D", "q4": "E"}
+{"row_id": "salart_21c3d87478f5", "q1": "yes", "q2": "D", "q3": "B", "q4": "B"}
+{"row_id": "salart_8b5870da26e0", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_efe641072e4c", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_4aacd6e5d957", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_b946035ebdc8", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_bca7e121cb71", "q1": "yes", "q2": "E", "q3": "A", "q4": "A"}
+{"row_id": "salart_8fb23f0999cf", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_39abf7a28c9e", "q1": "no", "q2": "C", "q3": "A", "q4": "E"}
+{"row_id": "salart_3646cdc6356e", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_ae076f333b42", "q1": "no", "q2": "E", "q3": "A", "q4": "B"}
+{"row_id": "salart_40c0411ba1a5", "q1": "yes", "q2": "A", "q3": "C", "q4": "C"}
+{"row_id": "salart_1ce4a7955bd8", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_6a77384095b2", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_aa465da22b2c", "q1": "no", "q2": "B", "q3": "B", "q4": "E"}
+{"row_id": "salart_8c4e69570513", "q1": "yes", "q2": "C", "q3": "C", "q4": "B"}
+{"row_id": "salart_af2b539e040b", "q1": "no", "q2": "C", "q3": "B", "q4": "E"}
+{"row_id": "salart_de27558a1654", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_78059b97c8c6", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_2bf7482bd2a4", "q1": "yes", "q2": "C", "q3": "A", "q4": "C"}
+{"row_id": "salart_5ac100333d63", "q1": "no", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_2f9e505a2ede", "q1": "yes", "q2": "D", "q3": "C", "q4": "D"}
+{"row_id": "salart_7caa2159be2b", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_9a13fb1fb998", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_ffd6b4581ccf", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_51e23c94c158", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_0b7803a7121d", "q1": "no", "q2": "E", "q3": "A", "q4": "C"}
+{"row_id": "salart_748c50b5d39f", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_4c2873d533b4", "q1": "no", "q2": "C", "q3": "C", "q4": "B"}
+{"row_id": "salart_293829012a26", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_96c7ba492820", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_a43e1620afa6", "q1": "yes", "q2": "D", "q3": "C", "q4": "C"}
+{"row_id": "salart_deb388685890", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_08900f3f3794", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_ef524a3a4b6e", "q1": "no", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_13571ef22a51", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_79d49f3a6fe3", "q1": "yes", "q2": "C", "q3": "B", "q4": "E"}
+{"row_id": "salart_52565c40d4c4", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_576a663f9543", "q1": "no", "q2": "D", "q3": "A", "q4": "A"}
+{"row_id": "salart_659e69c5ffaf", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_00fb7bd78e13", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_e26e0566e226", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_77924f56d8a1", "q1": "no", "q2": "D", "q3": "D", "q4": "E"}
+{"row_id": "salart_c124c3067a33", "q1": "yes", "q2": "C", "q3": "A", "q4": "E"}
+{"row_id": "salart_373f3847627c", "q1": "no", "q2": "A", "q3": "A", "q4": "D"}
+{"row_id": "salart_6b7d8a86dd27", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_2bc54373484d", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_a73d7f4e3d35", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_047d649a6876", "q1": "no", "q2": "E", "q3": "C", "q4": "C"}
+{"row_id": "salart_4cc415bdb36f", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_846ac1c034c5", "q1": "yes", "q2": "D", "q3": "A", "q4": "B"}
+{"row_id": "salart_b54a89e2553a", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_b136e84df690", "q1": "yes", "q2": "C", "q3": "C", "q4": "E"}
+{"row_id": "salart_151827f71cbe", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_7b59c61e31be", "q1": "no", "q2": "E", "q3": "B", "q4": "E"}
+{"row_id": "salart_0c7675e89028", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_0ab8ed3452f6", "q1": "no", "q2": "B", "q3": "E", "q4": "E"}
+{"row_id": "salart_c548a3204cd3", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_e10896816768", "q1": "yes", "q2": "A", "q3": "D", "q4": "A"}
+{"row_id": "salart_1b16cb040156", "q1": "yes", "q2": "A", "q3": "C", "q4": "A"}
+{"row_id": "salart_91325a574cf4", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_333b0d9e6a98", "q1": "yes", "q2": "A", "q3": "A", "q4": "D"}
+{"row_id": "salart_db7c8e044e47", "q1": "yes", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_3705515e4571", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_2e802f651325", "q1": "no", "q2": "C", "q3": "A", "q4": "E"}
+{"row_id": "salart_edaf06efdbcb", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_750753099358", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_25f4cc4526ad", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_46775abde91b", "q1": "no", "q2": "E", "q3": "C", "q4": "E"}
+{"row_id": "salart_a222cbda4f4b", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_6aa5878f3481", "q1": "no", "q2": "A", "q3": "C", "q4": "A"}
+{"row_id": "salart_d0fe6f8f6162", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_9a447da2bfb3", "q1": "no", "q2": "C", "q3": "A", "q4": "A"}
+{"row_id": "salart_f244ac0b5030", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_36180d15c718", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_9aa0c3bd5532", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_ce4525cea3d7", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_49eadc94464f", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7822c24ee17d", "q1": "yes", "q2": "B", "q3": "C", "q4": "A"}
+{"row_id": "salart_afde92aa7931", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_7ab1584d76b2", "q1": "no", "q2": "E", "q3": "B", "q4": "E"}
+{"row_id": "salart_8615c0461148", "q1": "yes", "q2": "D", "q3": "A", "q4": "A"}
+{"row_id": "salart_a0165e43b4be", "q1": "yes", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_571580a0034b", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_82f2890f266c", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_e87c1459ebcd", "q1": "yes", "q2": "B", "q3": "B", "q4": "A"}
+{"row_id": "salart_9119c6990158", "q1": "yes", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_b2a8535edc4c", "q1": "yes", "q2": "B", "q3": "C", "q4": "C"}
+{"row_id": "salart_ac6fd5387d97", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_fde4eb4d4a8e", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_57c4f36091a2", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_77e038866267", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_6c9fd25a677d", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_02de0a9f55a2", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_ad9efa27b81a", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_6a06c6730f23", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_75ca7bebf21e", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_6a5e32181681", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_af05dc6df737", "q1": "yes", "q2": "A", "q3": "B", "q4": "E"}
+{"row_id": "salart_22da959b149a", "q1": "yes", "q2": "D", "q3": "A", "q4": "A"}
+{"row_id": "salart_374722ec8b6d", "q1": "no", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_984d6b90f6ac", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_da364120af7a", "q1": "no", "q2": "E", "q3": "B", "q4": "E"}
+{"row_id": "salart_ff0c77815552", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_7d3da73a6302", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_7f64ba6e4120", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_d9f7fc4dc009", "q1": "no", "q2": "B", "q3": "A", "q4": "E"}
+{"row_id": "salart_e0c4769543e5", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_b7402cfeaacf", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_3a13a6f2747a", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_7bfb1e47aeb1", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_7501b6144949", "q1": "yes", "q2": "B", "q3": "C", "q4": "B"}
+{"row_id": "salart_322731e146e7", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_e02919e385dc", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_be4e93b2fa68", "q1": "yes", "q2": "B", "q3": "A", "q4": "B"}
+{"row_id": "salart_89e5a96f3d79", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_de26e477a4a2", "q1": "no", "q2": "D", "q3": "A", "q4": "E"}
+{"row_id": "salart_56b617a09e72", "q1": "yes", "q2": "A", "q3": "D", "q4": "A"}
+{"row_id": "salart_501aa5bf03cb", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_4667ccf9ee72", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_2f1f4d4df013", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_5cbc77d963a5", "q1": "yes", "q2": "B", "q3": "C", "q4": "C"}
+{"row_id": "salart_d7ab39da7863", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_3312650f24b8", "q1": "yes", "q2": "C", "q3": "C", "q4": "A"}
+{"row_id": "salart_cc3ba014b3a5", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_ea46a035e13c", "q1": "yes", "q2": "D", "q3": "D", "q4": "A"}
+{"row_id": "salart_b23668f9fbf8", "q1": "no", "q2": "E", "q3": "A", "q4": "A"}
+{"row_id": "salart_e2905f13c6e2", "q1": "yes", "q2": "D", "q3": "A", "q4": "D"}
+{"row_id": "salart_7c75223b9d68", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_94dbb2187cfb", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_d04707a76085", "q1": "no", "q2": "E", "q3": "E", "q4": "E"}
+{"row_id": "salart_0dd024fed306", "q1": "yes", "q2": "A", "q3": "A", "q4": "B"}
+{"row_id": "salart_8383fa190c3d", "q1": "yes", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_dd0f6c0ef2a9", "q1": "yes", "q2": "B", "q3": "A", "q4": "A"}
+{"row_id": "salart_4c6f16e45fa7", "q1": "yes", "q2": "D", "q3": "C", "q4": "E"}
+{"row_id": "salart_7ab791d87eec", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_9136e9a5328b", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_471310e96955", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_3e795dd54452", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_016edbe7dbde", "q1": "yes", "q2": "C", "q3": "C", "q4": "B"}
+{"row_id": "salart_60e368095544", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_7c030260547d", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_c78da3b22095", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_cdaa3f30686c", "q1": "yes", "q2": "D", "q3": "C", "q4": "D"}
+{"row_id": "salart_0f6127674f8c", "q1": "yes", "q2": "B", "q3": "C", "q4": "A"}
+{"row_id": "salart_d6b1ae6a874c", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_100710a78f37", "q1": "no", "q2": "E", "q3": "C", "q4": "E"}
+{"row_id": "salart_1cf453c18ec4", "q1": "yes", "q2": "C", "q3": "D", "q4": "D"}
+{"row_id": "salart_4130ea34cc8c", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_9889b45cbb2b", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_0cfb85001557", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_150c19be8155", "q1": "yes", "q2": "C", "q3": "C", "q4": "A"}
+{"row_id": "salart_cd4a1b5765c0", "q1": "no", "q2": "E", "q3": "D", "q4": "E"}
+{"row_id": "salart_afbd00cfcc01", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_23164f869855", "q1": "no", "q2": "E", "q3": "D", "q4": "E"}
+{"row_id": "salart_5c7a23651096", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_def0b15080c6", "q1": "no", "q2": "D", "q3": "C", "q4": "E"}
+{"row_id": "salart_815e6c9bd294", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_1f80041ab09c", "q1": "no", "q2": "C", "q3": "B", "q4": "A"}
+{"row_id": "salart_3f259dadeb26", "q1": "yes", "q2": "D", "q3": "C", "q4": "C"}
+{"row_id": "salart_7ba66a244a29", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_c65938d84fb0", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_e6313cee5362", "q1": "no", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_f2539c5a12f8", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_85599d3c3209", "q1": "no", "q2": "D", "q3": "A", "q4": "A"}
+{"row_id": "salart_d3175a38f648", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_998c0060e55e", "q1": "yes", "q2": "D", "q3": "D", "q4": "B"}
+{"row_id": "salart_70492840f6d0", "q1": "yes", "q2": "C", "q3": "C", "q4": "A"}
+{"row_id": "salart_85a02381d3a7", "q1": "no", "q2": "E", "q3": "D", "q4": "E"}
+{"row_id": "salart_319490b7fe70", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_05684e41f582", "q1": "no", "q2": "A", "q3": "A", "q4": "E"}
+{"row_id": "salart_48d530eaef8c", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_6f438ff1cdb8", "q1": "yes", "q2": "A", "q3": "A", "q4": "A"}
+{"row_id": "salart_b9105c597cb5", "q1": "yes", "q2": "C", "q3": "D", "q4": "C"}
+{"row_id": "salart_8ec6be448be1", "q1": "no", "q2": "E", "q3": "A", "q4": "E"}
+{"row_id": "salart_f24e404db8c7", "q1": "yes", "q2": "C", "q3": "C", "q4": "C"}
+{"row_id": "salart_d1e794951efd", "q1": "no", "q2": "B", "q3": "B", "q4": "E"}
+{"row_id": "salart_4ba6da11fdda", "q1": "yes", "q2": "D", "q3": "D", "q4": "D"}
+{"row_id": "salart_5badb22badb2", "q1": "no", "q2": "E", "q3": "B", "q4": "B"}
+{"row_id": "salart_2f61c7de16e5", "q1": "yes", "q2": "B", "q3": "B", "q4": "B"}
+{"row_id": "salart_cc218519972d", "q1": "yes", "q2": "A", "q3": "A", "q4": "E"}

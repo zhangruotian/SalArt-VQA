@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SalArt-VQA: a benchmark for identifying and grounding salient artifacts in AI-generated images. Explore selected Table 1 results.">
+  <title>SalArt-VQA · Leaderboard</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root { color-scheme: light; --ink:#172c32; --muted:#586b70; --accent:#007f73; --line:#dce6e4; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:#f7faf9; font:15px/1.65 system-ui,sans-serif; }
+    main { max-width:1400px; margin:auto; padding:58px 32px 40px; }
+    .eyebrow { color:var(--accent); font-size:12px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; }
+    h1 { font-size:clamp(42px,6vw,68px); letter-spacing:-.05em; line-height:1.1; margin:16px 0; }
+    .subtitle { max-width:690px; font-size:21px; line-height:1.5; margin:0 0 20px; color:var(--muted); }
+    a { color:var(--accent); text-underline-offset:3px; }
+    nav { display:flex; gap:12px; flex-wrap:wrap; margin:24px 0 36px; }
+    nav a { padding:7px 16px; border:1px solid var(--line); border-radius:7px; text-decoration:none; background:white; font-weight:600; }
+    nav a:first-child { background:var(--ink); color:white; border-color:var(--ink); }
+    .stats { display:flex; gap:45px; padding:22px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .stats b { display:block; font-size:25px; line-height:1.3; }
+    .stats span { color:var(--muted); font-size:13px; }
+    h2 { font-size:25px; margin:34px 0 4px; letter-spacing:-.03em; }
+    .description { color:var(--muted); margin:0 0 20px; }
+    .controls { display:flex; gap:16px; align-items:end; flex-wrap:wrap; margin-bottom:18px; }
+    label { display:grid; gap:5px; font-size:12px; font-weight:650; }
+    input, select { border:1px solid #b9cbc7; padding:10px 12px; font:inherit; font-size:14px; color:var(--ink); border-radius:6px; background:white; }
+    input { width:280px; }
+    #count { margin-left:auto; color:var(--muted); font-size:13px; }
+    .table-wrap { border:1px solid var(--line); border-radius:10px; overflow:auto; background:white; }
+    table { border-collapse:collapse; width:100%; white-space:nowrap; font-variant-numeric:tabular-nums; font-size:13px; }
+    th, td { padding:13px 11px; text-align:right; border-bottom:1px solid #edf1f0; }
+    thead tr:first-child th { background:#edf5f2; text-align:center; border-bottom:1px solid var(--line); font-size:12px; }
+    thead tr:first-child th:first-child { text-align:left; }
+    thead tr:nth-child(2) th { background:#f6f9f8; padding:8px 7px; }
+    th:first-child, td:first-child { text-align:left; }
+    tbody th { font-weight:550; }
+    tbody tr:hover { background:#f0f8f5; }
+    tbody tr:last-child th, tbody tr:last-child td { border-bottom:0; }
+    th button { color:inherit; background:none; border:0; padding:5px 2px; cursor:pointer; font:inherit; font-weight:650; }
+    th button:hover { color:var(--accent); }
+    [aria-sort="descending"] button::after { content:" ↓"; color:var(--accent); }
+    [aria-sort="ascending"] button::after { content:" ↑"; color:var(--accent); }
+    th:nth-child(2),td:nth-child(2),th:nth-child(5),td:nth-child(5),th:nth-child(8),td:nth-child(8),th:nth-child(9),td:nth-child(9) { border-left:1px solid var(--line); }
+    .best { color:var(--accent); font-weight:750; }
+    sup { color:var(--accent); padding-left:1px; }
+    .notes { color:var(--muted); font-size:13px; max-width:940px; margin-top:18px; }
+    .notes p { margin:8px 0; }
+    footer { border-top:1px solid var(--line); margin-top:35px; padding-top:20px; color:var(--muted); font-size:13px; }
+    :focus-visible { outline:3px solid #72bbad; outline-offset:3px; }
+    @media(max-width:600px) { main { padding:30px 18px; } .stats { gap:24px; } .stats b { font-size:22px; } input { width:100%; } .controls label:first-child { flex:1 1 100%; } #count { margin-left:0; } }
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">NeurIPS 2026 · Visual understanding</div>
+  <h1>SalArt-VQA</h1>
+  <p class="subtitle">Can vision-language models identify and ground salient artifacts in AI-generated images?</p>
+  <nav aria-label="Project links">
+    <a href="https://arxiv.org/abs/2606.12671">Read the paper ↗</a>
+    <a href="https://huggingface.co/datasets/salartvqa/SalArt-VQA">Dataset</a>
+    <a href="https://github.com/zhangruotian/SalArt-VQA">Code & evaluation</a>
+  </nav>
+  <div class="stats">
+    <div><b>950</b><span>Images</span></div>
+    <div><b>3,681</b><span>Visual questions</span></div>
+    <div><b>10</b><span>Featured models</span></div>
+  </div>
+  <h2>Leaderboard</h2>
+  <p class="description">Selected results from Table 1. Accuracy (%), higher is better. Click a column to sort.</p>
+  <div class="controls">
+    <label>Search models<input id="search" type="search" placeholder="e.g. Gemini, Qwen…"></label>
+    <label>Access category<select id="category"><option value="">All models</option><option>Closed-source</option><option>Open-weight</option></select></label>
+    <span id="count" role="status" aria-live="polite">Loading results…</span>
+  </div>
+  <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable Table 1 results">
+    <table aria-label="SalArt-VQA Table 1 accuracy">
+      <thead>
+        <tr><th scope="col">Model</th><th colspan="3" scope="colgroup">Artifact · 475</th><th colspan="3" scope="colgroup">Ref-Real · 356</th><th scope="colgroup">Ref-PG · 119</th><th colspan="3" scope="colgroup">Overall</th></tr>
+        <tr id="columns"></tr>
+      </thead>
+      <tbody id="results"></tbody>
+    </table>
+  </div>
+  <noscript>Enable JavaScript to sort and filter, or <a href="paper/table1.json">download the results as JSON</a>.</noscript>
+  <div class="notes">
+    <p><b>Q1</b> detects artifacts: recall on artifact images, specificity on real references. <b>All Q1–4</b> requires all four answers on an image to be correct; <b>All Q2–4</b> requires all three downstream answers to be correct.</p>
+    <p><b>Ref-Real</b>: real-image references. <b>Ref-PG</b>: paired generated references, evaluated on Q2–4 only. Overall Q1 and All Q1–4 use 831 images; Overall All Q2–4 uses all 950. Bold values mark the best score among the models currently shown.</p>
+    <p>† Published values are shown. Recomputing archived answers gives 24.74% for Gemini 3.1 Flash Lite and 20.32% for Gemma-4-31B-it on Overall All Q2–4. <a href="https://github.com/zhangruotian/SalArt-VQA#recompute-table-1">Reproduce the counts</a> · <a href="paper/table1.json">Download JSON</a></p>
+  </div>
+  <footer>Xiaoxiao Sun, Ruotian Zhang, Junzhe Huang, James Burgess, Serena Yeung-Levy</footer>
+</main>
+<script>
+  const columns = [
+    ['name','Name'], ['artifact_q1','Q1'], ['artifact_all4','All Q1–4'], ['artifact_all3','All Q2–4'],
+    ['real_q1','Q1'], ['real_all4','All Q1–4'], ['real_all3','All Q2–4'],
+    ['generated_all3','All Q2–4'], ['overall_q1','Q1'], ['overall_all4','All Q1–4'], ['overall_all3','All Q2–4']
+  ];
+  let models = [], sortKey = 'artifact_all4', direction = -1;
+  const search = document.querySelector('#search'), category = document.querySelector('#category');
+  const header = document.querySelector('#columns'), body = document.querySelector('#results');
+  for (const [key, label] of columns) {
+    const th = document.createElement('th'); th.scope = 'col'; th.dataset.key = key;
+    const button = document.createElement('button'); button.type = 'button'; button.textContent = label;
+    button.setAttribute('aria-label', `Sort by ${key.replaceAll('_',' ')}`);
+    button.addEventListener('click', () => {
+      direction = sortKey === key ? -direction : key === 'name' ? 1 : -1;
+      sortKey = key; render();
+    });
+    th.append(button); header.append(th);
+  }
+  function render() {
+    const query = search.value.trim().toLowerCase();
+    const visible = models.filter(m => m.name.toLowerCase().includes(query) && (!category.value || m.category === category.value));
+    visible.sort((a,b) => direction * (sortKey === 'name' ? a.name.localeCompare(b.name) : a.scores[sortKey] - b.scores[sortKey]) || a.name.localeCompare(b.name));
+    for (const th of header.children) th.setAttribute('aria-sort', th.dataset.key === sortKey ? (direction === 1 ? 'ascending' : 'descending') : 'none');
+    body.replaceChildren();
+    const best = Object.fromEntries(columns.slice(1).map(([key]) => [key, Math.max(...visible.map(m => m.scores[key]))]));
+    for (const model of visible) {
+      const tr = document.createElement('tr');
+      const name = document.createElement('th'); name.scope = 'row'; name.textContent = model.name; tr.append(name);
+      for (const [key] of columns.slice(1)) {
+        const td = document.createElement('td'); td.textContent = model.scores[key].toFixed(2);
+        if (model.scores[key] === best[key]) td.className = 'best';
+        if (model.recomputed_scores?.[key] !== undefined) {
+          const note = document.createElement('sup'); note.textContent = '†';
+          note.title = `Recomputed from archived answers: ${model.recomputed_scores[key].toFixed(2)}%`; td.append(note);
+        }
+        tr.append(td);
+      }
+      body.append(tr);
+    }
+    if (!visible.length) {
+      const tr = document.createElement('tr'), td = document.createElement('td');
+      td.colSpan = columns.length; td.textContent = 'No matching models.'; tr.append(td); body.append(tr);
+    }
+    document.querySelector('#count').textContent = `${visible.length} of ${models.length} models`;
+  }
+  search.addEventListener('input', render); category.addEventListener('change', render);
+  fetch('paper/table1.json').then(r => { if (!r.ok) throw Error(r.status); return r.json(); })
+    .then(data => { models = data.models; render(); })
+    .catch(() => { document.querySelector('#count').textContent = 'Results could not be loaded. Please reload the page.'; });
+</script>
+</body>
+</html>

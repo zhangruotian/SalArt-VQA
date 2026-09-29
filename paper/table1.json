@@ -1,0 +1,181 @@
+{
+  "source": "SalArt-VQA, Table 1",
+  "models": [
+    {
+      "id": "gemini31pro",
+      "name": "Gemini 3.1 Pro",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 99.37,
+        "artifact_all4": 53.26,
+        "artifact_all3": 53.89,
+        "real_q1": 50.28,
+        "real_all4": 7.87,
+        "real_all3": 8.71,
+        "generated_all3": 0.0,
+        "overall_q1": 78.34,
+        "overall_all4": 33.81,
+        "overall_all3": 30.21
+      }
+    },
+    {
+      "id": "gemini31flashlite",
+      "name": "Gemini 3.1 Flash Lite",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 83.37,
+        "artifact_all4": 32.63,
+        "artifact_all3": 37.47,
+        "real_q1": 93.26,
+        "real_all4": 16.01,
+        "real_all3": 16.01,
+        "generated_all3": 0.0,
+        "overall_q1": 87.61,
+        "overall_all4": 25.51,
+        "overall_all3": 24.73
+      },
+      "recomputed_scores": {
+        "overall_all3": 24.74
+      }
+    },
+    {
+      "id": "claudeopus46",
+      "name": "Claude 4.6 Opus",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 47.58,
+        "artifact_all4": 11.79,
+        "artifact_all3": 17.47,
+        "real_q1": 100.0,
+        "real_all4": 96.35,
+        "real_all3": 96.35,
+        "generated_all3": 0.84,
+        "overall_q1": 70.04,
+        "overall_all4": 48.01,
+        "overall_all3": 44.95
+      }
+    },
+    {
+      "id": "gpt54",
+      "name": "GPT-5.4",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 4.63,
+        "artifact_all4": 1.89,
+        "artifact_all3": 6.32,
+        "real_q1": 100.0,
+        "real_all4": 95.79,
+        "real_all3": 95.79,
+        "generated_all3": 20.17,
+        "overall_q1": 45.49,
+        "overall_all4": 42.12,
+        "overall_all3": 41.58
+      }
+    },
+    {
+      "id": "claudehaiku45",
+      "name": "Claude 4.5 Haiku",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 0.42,
+        "artifact_all4": 0.0,
+        "artifact_all3": 0.84,
+        "real_q1": 99.44,
+        "real_all4": 49.16,
+        "real_all3": 49.16,
+        "generated_all3": 7.56,
+        "overall_q1": 42.84,
+        "overall_all4": 21.06,
+        "overall_all3": 19.79
+      }
+    },
+    {
+      "id": "gpt54nano",
+      "name": "GPT-5.4-nano",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 0.21,
+        "artifact_all4": 0.0,
+        "artifact_all3": 0.42,
+        "real_q1": 99.72,
+        "real_all4": 78.65,
+        "real_all3": 78.93,
+        "generated_all3": 19.33,
+        "overall_q1": 42.84,
+        "overall_all4": 33.69,
+        "overall_all3": 32.21
+      }
+    },
+    {
+      "id": "gemma4_31b",
+      "name": "Gemma-4-31B-it",
+      "category": "Open-weight",
+      "scores": {
+        "artifact_q1": 86.32,
+        "artifact_all4": 33.26,
+        "artifact_all3": 37.68,
+        "real_q1": 68.26,
+        "real_all4": 3.93,
+        "real_all3": 3.93,
+        "generated_all3": 0.0,
+        "overall_q1": 78.58,
+        "overall_all4": 20.7,
+        "overall_all3": 20.31
+      },
+      "recomputed_scores": {
+        "overall_all3": 20.32
+      }
+    },
+    {
+      "id": "qwen35_397b",
+      "name": "Qwen3.5-397B-A17B",
+      "category": "Open-weight",
+      "scores": {
+        "artifact_q1": 33.26,
+        "artifact_all4": 12.63,
+        "artifact_all3": 27.79,
+        "real_q1": 96.63,
+        "real_all4": 39.33,
+        "real_all3": 40.17,
+        "generated_all3": 0.0,
+        "overall_q1": 60.41,
+        "overall_all4": 24.07,
+        "overall_all3": 28.95
+      }
+    },
+    {
+      "id": "kimi25",
+      "name": "Kimi K2.5",
+      "category": "Open-weight",
+      "scores": {
+        "artifact_q1": 3.79,
+        "artifact_all4": 1.68,
+        "artifact_all3": 4.84,
+        "real_q1": 100.0,
+        "real_all4": 77.25,
+        "real_all3": 77.25,
+        "generated_all3": 28.57,
+        "overall_q1": 45.01,
+        "overall_all4": 34.06,
+        "overall_all3": 34.95
+      }
+    },
+    {
+      "id": "glm46v",
+      "name": "GLM-4.6V",
+      "category": "Open-weight",
+      "scores": {
+        "artifact_q1": 0.42,
+        "artifact_all4": 0.21,
+        "artifact_all3": 0.21,
+        "real_q1": 100.0,
+        "real_all4": 97.47,
+        "real_all3": 97.47,
+        "generated_all3": 84.87,
+        "overall_q1": 43.08,
+        "overall_all4": 41.88,
+        "overall_all3": 47.26
+      }
+    }
+  ]
+}
