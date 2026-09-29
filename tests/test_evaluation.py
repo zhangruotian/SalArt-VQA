@@ -63,6 +63,22 @@ def test_strict_answer_parsing_and_unknown_ids():
         score(read_jsonl(LABELS), {"unknown": {}})
 
 
+def test_hub_loading_fetches_only_the_needed_v1_shard(tmp_path, monkeypatch):
+    import huggingface_hub
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+    shard = tmp_path / "test.parquet"
+    pq.write_table(pa.Table.from_pylist([{"row_id": "first"}, {"row_id": "second"}]), shard)
+    calls = []
+    def download(repo_id, filename, **kwargs):
+        calls.append((repo_id, filename, kwargs))
+        return str(shard)
+    monkeypatch.setattr(huggingface_hub, "hf_hub_download", download)
+    assert list(evaluate.dataset_rows(None, 1)) == [{"row_id": "first"}]
+    assert calls == [(evaluate.DATASET, "data/test-00000-of-00005.parquet",
+                      {"repo_type": "dataset", "revision": evaluate.REVISION})]
+
+
 def example_row(label):
     return {**label, "image": {"bytes": b"original", "path": "image.png"},
             "q3_overlay_image": {"bytes": b"overlay", "path": "overlay.png"},

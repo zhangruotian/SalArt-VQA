@@ -38,12 +38,13 @@ def build_prompt(row, question):
 def dataset_rows(data_dir, limit):
     import pyarrow.parquet as pq
     if data_dir is None:
-        from huggingface_hub import snapshot_download
-        data_dir = Path(snapshot_download(DATASET, repo_type="dataset", revision=REVISION,
-                                         allow_patterns="data/*.parquet"))
-    files = sorted((data_dir / "data").glob("*.parquet"))
-    if not files:
-        raise FileNotFoundError(f"No data/*.parquet in {data_dir}")
+        from huggingface_hub import hf_hub_download
+        files = (hf_hub_download(DATASET, f"data/test-{i:05d}-of-00005.parquet",
+                                 repo_type="dataset", revision=REVISION) for i in range(5))
+    else:
+        files = sorted((data_dir / "data").glob("*.parquet"))
+        if not files:
+            raise FileNotFoundError(f"No data/*.parquet in {data_dir}")
     rows = (row for file in files for batch in pq.ParquetFile(file).iter_batches(batch_size=1)
             for row in batch.to_pylist())
     yield from islice(rows, limit)

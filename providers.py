@@ -54,6 +54,7 @@ class Client:
             candidate = response.candidates[0] if response.candidates else None
             parts = candidate.content.parts if candidate and candidate.content else []
             return {"text": "".join(p.text for p in parts if p.text and not p.thought),
+                    "model": response.model_version,
                     "finish_reason": str(candidate.finish_reason) if candidate else "blocked",
                     "usage": response.usage_metadata.model_dump(mode="json") if response.usage_metadata else None}
         if self.provider == "anthropic":
@@ -65,6 +66,7 @@ class Client:
                 ]}], extra_body=self.sampling | self.options,
             )
             return {"text": "".join(block.text for block in response.content if block.type == "text"),
+                    "model": response.model,
                     "finish_reason": response.stop_reason, "usage": response.usage.model_dump(mode="json")}
         image_url = f"data:{mime_type};base64,{encoded}"
         if self.provider == "openai":
@@ -75,7 +77,7 @@ class Client:
                     {"type": "input_text", "text": prompt},
                 ]}], extra_body=self.options,
             )
-            return {"text": response.output_text, "finish_reason": response.status,
+            return {"text": response.output_text, "model": response.model, "finish_reason": response.status,
                     "usage": response.usage.model_dump(mode="json") if response.usage else None}
         response = self.client.chat.completions.create(
             model=self.model, max_tokens=self.max_tokens, **self.sampling,
@@ -85,7 +87,7 @@ class Client:
             ]}], extra_body=self.options,
         )
         choice = response.choices[0]
-        return {"text": choice.message.content or "", "finish_reason": choice.finish_reason,
+        return {"text": choice.message.content or "", "model": response.model, "finish_reason": choice.finish_reason,
                 "usage": response.usage.model_dump(mode="json") if response.usage else None}
 
     def close(self):

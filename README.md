@@ -31,7 +31,7 @@ python evaluate.py run --provider openai --model gpt-5.4-nano \
   --output runs/gpt-5.4-nano --limit 1
 ```
 
-The first run downloads the self-contained HF **v1** snapshot (~1.13 GB). `--limit 1` tests one image; **remove it for the full 3,681-question evaluation**. Use `--workers 4` to control concurrent images. Each question is a separate request with no shared conversation history.
+Images download automatically from the self-contained HF **v1** snapshot as needed (~1.13 GB for the full dataset). `--limit 1` tests one image; **remove it for the full 3,681-question evaluation**. Use `--workers 4` to control concurrent images. Each question is a separate request with no shared conversation history.
 
 Choose a provider and model below; keep the same `run` command and set a separate `--output` directory:
 
@@ -61,7 +61,7 @@ New runs use the frozen **v1 prompts and supplied Q3 overlays**. Historical pape
 
 ## Results
 
-Each output directory contains `predictions.jsonl` (answers, raw responses, token usage), `run.json` (settings), `metrics.json` (counts and percentages), and `table1.csv`. A `--limit` run is marked as a subset. Rerun the same command with `--resume` after interruption; completed questions are retained and API errors retried.
+Each output directory contains `predictions.jsonl` (answers, raw responses, token usage), `run.json` (settings), `metrics.json` (counts and percentages), and `table1.csv`. A `--limit` run is marked as a subset. Rerun the same command with `--resume` after interruption; saved questions are retained and API errors retried.
 
 To score your own answers on the full test set:
 
