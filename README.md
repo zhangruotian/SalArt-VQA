@@ -57,7 +57,21 @@ See `python evaluate.py run --help` for additional options.
 
 ## Results
 
-Results are saved under `--output`: `table1.csv` contains the Table 1 metrics, `metrics.json` includes counts, `predictions.jsonl` stores answers and responses, and `run.json` records settings. Missing or invalid answers count as incorrect.
+Each run automatically saves **per-question answers and leaderboard metrics** under `--output`:
+
+- `predictions.jsonl`: Q1–Q4 answers and raw responses.
+- `metrics.csv` / `metrics.json`: the leaderboard's ten metrics, with correct/total counts in JSON.
+- `run.json`: evaluation settings.
+
+Q1 measures detection accuracy. All Q1–4 and All Q2–4 require every indicated answer on the same image to be correct. Scores are grouped by artifact, real reference, generated reference, and overall. Missing or invalid answers count as incorrect.
+
+To score existing predictions on the full benchmark without calling a model:
+
+```bash
+python evaluate.py score predictions.jsonl --output runs/scored
+```
+
+Use one JSON object per image: `{"row_id":"salart_ee751cb2d782","q1":"yes","q2":"A","q3":"B","q4":"C"}`.
 
 ## Citation
 

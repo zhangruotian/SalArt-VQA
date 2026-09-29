@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="SalArt-VQA: a benchmark for identifying and grounding salient artifacts in AI-generated images. Explore selected Table 1 results.">
+  <meta name="description" content="SalArt-VQA: a benchmark for identifying and grounding salient artifacts in AI-generated images. Evaluate and compare vision-language models.">
   <title>SalArt-VQA · Leaderboard</title>
   <link rel="icon" href="data:,">
   <style>
@@ -64,14 +64,14 @@
     <div><b>10</b><span>Featured models</span></div>
   </div>
   <h2>Leaderboard</h2>
-  <p class="description">Selected results from Table 1. Accuracy (%), higher is better. Click a column to sort.</p>
+  <p class="description">Accuracy (%), higher is better. Click a column to sort.</p>
   <div class="controls">
     <label>Search models<input id="search" type="search" placeholder="e.g. Gemini, Qwen…"></label>
     <label>Access category<select id="category"><option value="">All models</option><option>Closed-source</option><option>Open-weight</option></select></label>
     <span id="count" role="status" aria-live="polite">Loading results…</span>
   </div>
-  <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable Table 1 results">
-    <table aria-label="SalArt-VQA Table 1 accuracy">
+  <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable benchmark results">
+    <table aria-label="SalArt-VQA benchmark accuracy">
       <thead>
         <tr><th scope="col">Model</th><th colspan="3" scope="colgroup">Artifact · 475</th><th colspan="3" scope="colgroup">Ref-Real · 356</th><th scope="colgroup">Ref-PG · 119</th><th colspan="3" scope="colgroup">Overall</th></tr>
         <tr id="columns"></tr>
@@ -128,7 +128,7 @@
     document.querySelector('#count').textContent = `${visible.length} of ${models.length} models`;
   }
   search.addEventListener('input', render); category.addEventListener('change', render);
-  fetch('paper/table1.json').then(r => { if (!r.ok) throw Error(r.status); return r.json(); })
+  fetch('leaderboard.json').then(r => { if (!r.ok) throw Error(r.status); return r.json(); })
     .then(data => { models = data.models; render(); })
     .catch(() => { document.querySelector('#count').textContent = 'Results could not be loaded. Please reload the page.'; });
 </script>

@@ -1,7 +1,6 @@
-"""Run SalArt-VQA v1, score predictions, or recompute the published Table 1."""
+"""Evaluate your model on SalArt-VQA v1 and compute benchmark metrics."""
 
 import argparse
-import csv
 import json
 import mimetypes
 import sys
@@ -11,9 +10,7 @@ from pathlib import Path
 
 from metrics import (
     LABELS,
-    METRICS,
     QUESTIONS,
-    ROOT,
     normalize_answer,
     read_jsonl,
     read_predictions,
@@ -140,23 +137,6 @@ def run(args):
         raise ValueError("Dataset is incomplete; metrics include missing answers as incorrect.")
 
 
-def paper():
-    table = json.loads((ROOT / "paper" / "table1.json").read_text())
-    labels = read_jsonl(LABELS)
-    writer = csv.writer(sys.stdout)
-    writer.writerow(["model"] + [key for key, _, _ in METRICS])
-    for model in table["models"]:
-        report = score(labels, read_predictions(ROOT / "paper" / "predictions" / f"{model['id']}.jsonl"))
-        values = {key: round(metric["accuracy"], 2) for key, metric in report["table1"].items()}
-        expected = model["scores"] | model.get("recomputed_scores", {})
-        if values != expected:
-            raise ValueError(f"Cached predictions disagree with Table 1: {model['name']}")
-        for key in model.get("recomputed_scores", {}):
-            print(f"{model['name']} {key}: paper {model['scores'][key]:.2f}, "
-                  f"recomputed {values[key]:.2f}", file=sys.stderr)
-        writer.writerow([model["name"]] + [f"{value:.2f}" for value in values.values()])
-
-
 def positive_int(value):
     value = int(value)
     if value < 1:
@@ -167,7 +147,6 @@ def positive_int(value):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
-    sub.add_parser("paper", help="Recompute the ten published models without API calls or downloads")
     scorer = sub.add_parser("score", help="Score JSONL predictions against all 950 v1 images")
     scorer.add_argument("predictions", type=Path)
     scorer.add_argument("--output", type=Path, default=Path("runs/scored"))
@@ -186,9 +165,7 @@ def main():
     runner.add_argument("--data-dir", type=Path, help="Local v1 snapshot containing data/*.parquet")
     runner.add_argument("--resume", action="store_true")
     args = parser.parse_args()
-    if args.command == "paper":
-        paper()
-    elif args.command == "score":
+    if args.command == "score":
         report = score(read_jsonl(LABELS), read_predictions(args.predictions))
         write_report(report, args.output)
         show_report(report)

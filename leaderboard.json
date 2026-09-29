@@ -1,5 +1,4 @@
 {
-  "source": "SalArt-VQA, Table 1",
   "models": [
     {
       "id": "gemini31pro",
@@ -33,9 +32,6 @@
         "overall_q1": 87.61,
         "overall_all4": 25.51,
         "overall_all3": 24.73
-      },
-      "recomputed_scores": {
-        "overall_all3": 24.74
       }
     },
     {
@@ -121,9 +117,6 @@
         "overall_q1": 78.58,
         "overall_all4": 20.7,
         "overall_all3": 20.31
-      },
-      "recomputed_scores": {
-        "overall_all3": 20.32
       }
     },
     {

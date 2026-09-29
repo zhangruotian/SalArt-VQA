@@ -1,4 +1,4 @@
-"""The ten image-level metrics in SalArt-VQA Table 1. No API dependencies."""
+"""SalArt-VQA benchmark metrics, matching the leaderboard."""
 
 import csv
 import json
@@ -6,7 +6,7 @@ from pathlib import Path
 
 QUESTIONS = ("q1", "q2", "q3", "q4")
 ROOT = Path(__file__).resolve().parent
-LABELS = ROOT / "paper" / "labels.jsonl"
+LABELS = ROOT / "data" / "labels.jsonl"
 # Key, image role (None means all), questions that must ALL be correct.
 METRICS = (
     ("artifact_q1", "artifact", ("q1",)),
@@ -70,23 +70,23 @@ def score(labels, predictions):
                       "accuracy": 100 * count / len(eligible) if eligible else None}
     return {"rows": len(labels), "questions": questions,
             "prediction_rows": len(predictions),
-            "missing_or_invalid_answers": invalid, "table1": table}
+            "missing_or_invalid_answers": invalid, "scores": table}
 
 
 def write_report(report, directory):
     directory = Path(directory)
     directory.mkdir(parents=True, exist_ok=True)
     (directory / "metrics.json").write_text(json.dumps(report, indent=2) + "\n")
-    with (directory / "table1.csv").open("w", newline="") as stream:
+    with (directory / "metrics.csv").open("w", newline="") as stream:
         writer = csv.writer(stream)
-        writer.writerow(report["table1"])
+        writer.writerow(report["scores"])
         writer.writerow("" if m["accuracy"] is None else f'{m["accuracy"]:.2f}'
-                        for m in report["table1"].values())
+                        for m in report["scores"].values())
 
 
 def show_report(report):
     print(f"{report['rows']} images, {report['questions']} questions; "
           f"{report['missing_or_invalid_answers']} missing/invalid answers")
-    for key, metric in report["table1"].items():
+    for key, metric in report["scores"].items():
         value = "n/a" if metric["accuracy"] is None else f"{metric['accuracy']:.2f}%"
         print(f"{key:20s} {value:>8s}  ({metric['correct']}/{metric['total']})")
