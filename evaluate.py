@@ -21,7 +21,7 @@ from metrics import (
 
 DATASET = "salartvqa/SalArt-VQA"
 # Immutable commit behind the v1 release tag.
-REVISION = "eaa55bfd89a0971e9044d34fd7fbb2f53d86e15e"
+REVISION = "eacc6d39661b04c0ac2abdcd8ed2c5d37d9ed6f4"
 
 
 def build_prompt(row, question):
