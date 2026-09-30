@@ -50,6 +50,8 @@ vllm serve Qwen/Qwen3-VL-8B-Instruct --max-model-len 16384
 
 Ollama defaults to `http://localhost:11434/v1`, vLLM to `http://localhost:8000/v1`. Override with `--base-url URL`; this flag is required for `openai-compatible`.
 
+For DashScope (Beijing), use `--provider openai-compatible --model qwen3-vl-8b-instruct --base-url https://dashscope.aliyuncs.com/compatible-mode/v1` with `OPENAI_API_KEY`.
+
 - `--workers`: concurrent images (default: 4).
 - `--max-tokens`: output budget per question (default: 4,096).
 - `--temperature`: defaults to `0`; use `--temperature default` if your model requires the provider default.
