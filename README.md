@@ -24,6 +24,8 @@ python evaluate.py run --provider openai --model gpt-5.4-nano \
 
 The v1 dataset downloads automatically (~1.13 GB in total). `--limit 1` tests one image; **remove it for the full evaluation**.
 
+Each question is an independent request using the dataset's complete prompt and system instruction. Q3 uses the supplied overlay. Models return JSON with `answer`, `chosen_reason`, and `option_analysis`; the selected answer is scored.
+
 To use another service, change `--provider` and `--model`, set its key, and choose a new `--output` directory:
 
 | Provider | Example model | Key environment variable |
@@ -50,7 +52,7 @@ Ollama defaults to `http://localhost:11434/v1`, vLLM to `http://localhost:8000/v
 
 - `--workers`: concurrent images (default: 4).
 - `--max-tokens`: output budget per question (default: 4,096).
-- `--temperature 0`: use when supported; otherwise omit for the provider default.
+- `--temperature`: defaults to `0`; use `--temperature default` if your model requires the provider default.
 - `--resume`: continue a saved run with the same command and settings.
 
 See `python evaluate.py run --help` for additional options.
@@ -59,7 +61,7 @@ See `python evaluate.py run --help` for additional options.
 
 Each run automatically saves **per-question answers and leaderboard metrics** under `--output`:
 
-- `predictions.jsonl`: Q1–Q4 answers and raw responses.
+- `predictions.jsonl`: Q1–Q4 answers, explanations, raw responses, and any parsing errors.
 - `metrics.csv` / `metrics.json`: the leaderboard's ten metrics, with correct/total counts in JSON.
 - `run.json`: evaluation settings.
 

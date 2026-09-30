@@ -3,12 +3,14 @@
 import base64
 import os
 
+from metrics import response_schema
+
 PROVIDERS = ("openai", "anthropic", "gemini", "kimi", "ollama", "vllm", "openai-compatible")
 
 
 class Client:
     def __init__(self, provider, model, base_url=None, max_tokens=4096,
-                 temperature=None, request_options=None):
+                 temperature=0.0, request_options=None):
         self.provider = provider
         self.model = model
         self.max_tokens = max_tokens
@@ -42,14 +44,16 @@ class Client:
             self.client = openai.OpenAI(timeout=600, max_retries=2, **connection)
             self.errors = (openai.APIError,)
 
-    def generate(self, prompt, image, mime_type):
+    def generate(self, system_prompt, prompt, image, mime_type, question):
         encoded = base64.b64encode(image).decode("ascii")
         if self.provider == "gemini":
             response = self.client.models.generate_content(
                 model=self.model,
                 contents=[self.types.Part.from_bytes(data=image, mime_type=mime_type), prompt],
                 config=self.types.GenerateContentConfig(
-                    **({"max_output_tokens": self.max_tokens, **self.sampling} | self.options)),
+                    **({"max_output_tokens": self.max_tokens, **self.sampling,
+                        "system_instruction": system_prompt, "response_mime_type": "application/json",
+                        "response_schema": response_schema(question)} | self.options)),
             )
             candidate = response.candidates[0] if response.candidates else None
             parts = candidate.content.parts if candidate and candidate.content else []
@@ -59,7 +63,7 @@ class Client:
                     "usage": response.usage_metadata.model_dump(mode="json") if response.usage_metadata else None}
         if self.provider == "anthropic":
             response = self.client.messages.create(
-                model=self.model, max_tokens=self.max_tokens,
+                model=self.model, max_tokens=self.max_tokens, system=system_prompt,
                 messages=[{"role": "user", "content": [
                     {"type": "image", "source": {"type": "base64", "media_type": mime_type, "data": encoded}},
                     {"type": "text", "text": prompt},
@@ -71,7 +75,7 @@ class Client:
         image_url = f"data:{mime_type};base64,{encoded}"
         if self.provider == "openai":
             response = self.client.responses.create(
-                model=self.model, max_output_tokens=self.max_tokens, **self.sampling,
+                model=self.model, max_output_tokens=self.max_tokens, instructions=system_prompt, **self.sampling,
                 input=[{"role": "user", "content": [
                     {"type": "input_image", "image_url": image_url},
                     {"type": "input_text", "text": prompt},
@@ -81,7 +85,7 @@ class Client:
                     "usage": response.usage.model_dump(mode="json") if response.usage else None}
         response = self.client.chat.completions.create(
             model=self.model, max_tokens=self.max_tokens, **self.sampling,
-            messages=[{"role": "user", "content": [
+            messages=[{"role": "system", "content": system_prompt}, {"role": "user", "content": [
                 {"type": "image_url", "image_url": {"url": image_url}},
                 {"type": "text", "text": prompt},
             ]}], extra_body=self.options,

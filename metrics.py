@@ -2,6 +2,7 @@
 
 import csv
 import json
+import re
 from pathlib import Path
 
 QUESTIONS = ("q1", "q2", "q3", "q4")
@@ -38,6 +39,44 @@ def normalize_answer(text, question):
     value = text.strip().lower() if question == "q1" else text.strip().upper()
     allowed = ("yes", "no") if question == "q1" else tuple("ABCDE")
     return value if value in allowed else None
+
+
+def response_schema(question):
+    choices = ["yes", "no"] if question == "q1" else list("ABCDE")
+    return {"type": "object", "properties": {
+        "answer": {"type": "string", "enum": choices},
+        "chosen_reason": {"type": "string"},
+        "option_analysis": {"type": "object",
+                            "properties": {key: {"type": "string"} for key in choices},
+                            "required": choices, "additionalProperties": False}},
+        "required": ["answer", "chosen_reason", "option_analysis"], "additionalProperties": False}
+
+
+def parse_response(text, question):
+    """Read the final answer object, allowing reasoning text and Markdown fences."""
+    decoder = json.JSONDecoder()
+    value = None
+    for match in re.finditer(r"\{", text):
+        try:
+            candidate, _ = decoder.raw_decode(text, match.start())
+        except ValueError:
+            continue
+        if isinstance(candidate, dict) and "answer" in candidate:
+            value = candidate
+    if not isinstance(value, dict) or set(value) != {"answer", "chosen_reason", "option_analysis"}:
+        raise ValueError("Required JSON keys: answer, chosen_reason, option_analysis")
+    answer = normalize_answer(value["answer"], question)
+    if answer is None:
+        raise ValueError("Invalid answer choice")
+    if not isinstance(value["chosen_reason"], str) or not value["chosen_reason"].strip():
+        raise ValueError("chosen_reason must be a nonempty string")
+    keys = {"yes", "no"} if question == "q1" else set("ABCDE")
+    analysis = value["option_analysis"]
+    if not isinstance(analysis, dict) or set(analysis) != keys:
+        raise ValueError("option_analysis must explain every answer choice")
+    if any(not isinstance(v, str) or not v.strip() for v in analysis.values()):
+        raise ValueError("Each option explanation must be a nonempty string")
+    return {"answer": answer, "chosen_reason": value["chosen_reason"], "option_analysis": analysis}
 
 
 def score(labels, predictions):

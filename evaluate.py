@@ -11,7 +11,7 @@ from pathlib import Path
 from metrics import (
     LABELS,
     QUESTIONS,
-    normalize_answer,
+    parse_response,
     read_jsonl,
     read_predictions,
     score,
@@ -21,15 +21,7 @@ from metrics import (
 
 DATASET = "salartvqa/SalArt-VQA"
 # Immutable commit behind the v1 release tag.
-REVISION = "eacc6d39661b04c0ac2abdcd8ed2c5d37d9ed6f4"
-
-
-def build_prompt(row, question):
-    prompt = row[f"{question}_prompt"]
-    if question in ("q2", "q4"):
-        options = row[f"{question}_options"]
-        prompt += "\n\nOptions:\n" + "\n".join(f"{key}. {options[key]}" for key in "ABCDE")
-    return prompt
+REVISION = "f4e90e49f0ca033c5191c210735d8d3e53eed948"
 
 
 def dataset_rows(data_dir, limit):
@@ -57,11 +49,18 @@ def evaluate_row(client, row, previous):
         image = row["q3_overlay_image" if question == "q3" else "image"]
         mime_type = mimetypes.guess_type(image["path"])[0]
         try:
-            response = client.generate(build_prompt(row, question), image["bytes"], mime_type)
+            response = client.generate(row["system_prompt"], row[f"{question}_prompt"],
+                                       image["bytes"], mime_type, question)
         except client.errors as error:
             response = {"text": "", "error": f"{type(error).__name__}: {str(error)[:500]}"}
+        response["parsed"] = None
+        if "error" not in response:
+            try:
+                response["parsed"] = parse_response(response["text"], question)
+            except ValueError as error:
+                response["parse_error"] = str(error)
         result["raw"][question] = response
-        result[question] = normalize_answer(response["text"], question)
+        result[question] = response["parsed"]["answer"] if response["parsed"] else None
         if "error" in response:
             break
     return result
@@ -158,7 +157,8 @@ def main():
     runner.add_argument("--output", type=Path, required=True)
     runner.add_argument("--workers", type=positive_int, default=4)
     runner.add_argument("--max-tokens", type=positive_int, default=4096)
-    runner.add_argument("--temperature", type=float, help="Omit for the provider default")
+    runner.add_argument("--temperature", type=lambda value: None if value == "default" else float(value),
+                        default=0.0, help="Default: 0; use 'default' for the provider default")
     runner.add_argument("--request-options", type=json.loads, default={},
                         help="JSON: SDK extra_body, or Gemini GenerateContentConfig fields")
     runner.add_argument("--limit", type=positive_int, help="First N images, for a small smoke test")
