@@ -17,9 +17,6 @@
     nav { display:flex; gap:12px; flex-wrap:wrap; margin:24px 0 36px; }
     nav a { padding:7px 16px; border:1px solid var(--line); border-radius:7px; text-decoration:none; background:white; font-weight:600; }
     nav a:first-child { background:var(--ink); color:white; border-color:var(--ink); }
-    .stats { display:flex; gap:45px; padding:22px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
-    .stats b { display:block; font-size:25px; line-height:1.3; }
-    .stats span { color:var(--muted); font-size:13px; }
     h2 { font-size:25px; margin:34px 0 4px; letter-spacing:-.03em; }
     .description { color:var(--muted); margin:0 0 20px; }
     .controls { display:flex; gap:16px; align-items:end; flex-wrap:wrap; margin-bottom:18px; }
@@ -46,7 +43,7 @@
     .notes { color:var(--muted); font-size:13px; max-width:940px; margin-top:18px; }
     .notes p { margin:8px 0; }
     :focus-visible { outline:3px solid #72bbad; outline-offset:3px; }
-    @media(max-width:600px) { main { padding:30px 18px; } .stats { gap:24px; } .stats b { font-size:22px; } input { width:100%; } .controls label:first-child { flex:1 1 100%; } #count { margin-left:0; } }
+    @media(max-width:600px) { main { padding:30px 18px; } input { width:100%; } .controls label:first-child { flex:1 1 100%; } #count { margin-left:0; } }
   </style>
 </head>
 <body>
@@ -58,11 +55,6 @@
     <a href="https://huggingface.co/datasets/salartvqa/SalArt-VQA">Dataset</a>
     <a href="https://github.com/zhangruotian/SalArt-VQA">Code & evaluation</a>
   </nav>
-  <div class="stats">
-    <div><b>950</b><span>Images</span></div>
-    <div><b>3,681</b><span>Visual questions</span></div>
-    <div><b>10</b><span>Featured models</span></div>
-  </div>
   <h2>Leaderboard</h2>
   <p class="description">Accuracy (%), higher is better. Click a column to sort.</p>
   <div class="controls">
