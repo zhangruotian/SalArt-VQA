@@ -10,18 +10,14 @@
     :root { color-scheme: light; --ink:#172c32; --muted:#586b70; --accent:#007f73; --line:#dce6e4; }
     * { box-sizing:border-box; }
     body { margin:0; color:var(--ink); background:#f7faf9; font:15px/1.65 system-ui,sans-serif; }
-    main { max-width:1400px; margin:auto; padding:58px 32px 40px; }
-    h1 { font-size:clamp(42px,6vw,68px); letter-spacing:-.05em; line-height:1.1; margin:16px 0; }
-    .subtitle { max-width:690px; font-size:21px; line-height:1.5; margin:0 0 20px; color:var(--muted); }
-    a { color:var(--accent); text-underline-offset:3px; }
-    nav { display:flex; gap:12px; flex-wrap:wrap; margin:24px 0 36px; }
-    nav a { padding:7px 16px; border:1px solid var(--line); border-radius:7px; text-decoration:none; background:white; font-weight:600; }
-    nav a:first-child { background:var(--ink); color:white; border-color:var(--ink); }
-    h2 { font-size:25px; margin:34px 0 4px; letter-spacing:-.03em; }
+    main { max-width:1400px; margin:auto; padding:36px 32px 40px; }
+    h1 { display:flex; gap:10px; align-items:baseline; font-size:clamp(22px,3vw,30px); letter-spacing:-.03em; line-height:1.3; margin:0 0 8px; }
+    h1 span { color:var(--muted); font-weight:450; }
     .description { color:var(--muted); margin:0 0 20px; }
     .controls { display:flex; gap:16px; align-items:end; flex-wrap:wrap; margin-bottom:18px; }
     label { display:grid; gap:5px; font-size:12px; font-weight:650; }
-    input, select { border:1px solid #b9cbc7; padding:10px 12px; font:inherit; font-size:14px; color:var(--ink); border-radius:6px; background:white; }
+    input, select { min-width:0; border:1px solid #b9cbc7; padding:10px 12px; font:inherit; font-size:14px; color:var(--ink); border-radius:6px; background:white; }
+    select { cursor:pointer; }
     input { width:280px; }
     #count { margin-left:auto; color:var(--muted); font-size:13px; }
     .table-wrap { border:1px solid var(--line); border-radius:10px; overflow:auto; background:white; }
@@ -34,8 +30,10 @@
     tbody th { font-weight:550; }
     tbody tr:hover { background:#f0f8f5; }
     tbody tr:last-child th, tbody tr:last-child td { border-bottom:0; }
-    th button { color:inherit; background:none; border:0; padding:5px 2px; cursor:pointer; font:inherit; font-weight:650; }
-    th button:hover { color:var(--accent); }
+    th button { color:inherit; background:white; border:1px solid var(--line); border-radius:5px; padding:5px 7px; cursor:pointer; font:inherit; font-weight:650; }
+    th button:hover { color:var(--accent); border-color:var(--accent); }
+    th button::after { content:" ↕"; color:var(--muted); }
+    th[aria-sort="descending"] button, th[aria-sort="ascending"] button { color:var(--accent); border-color:var(--accent); background:#e8f5f1; }
     [aria-sort="descending"] button::after { content:" ↓"; color:var(--accent); }
     [aria-sort="ascending"] button::after { content:" ↑"; color:var(--accent); }
     th:nth-child(2),td:nth-child(2),th:nth-child(5),td:nth-child(5),th:nth-child(8),td:nth-child(8),th:nth-child(9),td:nth-child(9) { border-left:1px solid var(--line); }
@@ -43,23 +41,24 @@
     .notes { color:var(--muted); font-size:13px; max-width:940px; margin-top:18px; }
     .notes p { margin:8px 0; }
     :focus-visible { outline:3px solid #72bbad; outline-offset:3px; }
-    @media(max-width:600px) { main { padding:30px 18px; } input { width:100%; } .controls label:first-child { flex:1 1 100%; } #count { margin-left:0; } }
+    @media(max-width:600px) {
+      main { padding:24px 16px; }
+      .controls { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:12px; }
+      .controls label:first-child, .controls label:nth-child(2), #count { grid-column:1 / -1; }
+      input, select { width:100%; }
+      #count { margin-left:0; }
+    }
   </style>
 </head>
 <body>
 <main>
-  <h1>SalArt-VQA</h1>
-  <p class="subtitle">Can vision-language models identify and ground salient artifacts in AI-generated images?</p>
-  <nav aria-label="Project links">
-    <a href="https://arxiv.org/abs/2606.12671">Read the paper ↗</a>
-    <a href="https://huggingface.co/datasets/salartvqa/SalArt-VQA">Dataset</a>
-    <a href="https://github.com/zhangruotian/SalArt-VQA">Code & evaluation</a>
-  </nav>
-  <h2>Leaderboard</h2>
-  <p class="description">Accuracy (%), higher is better. Click a column to sort.</p>
+  <h1>SalArt-VQA <span>Leaderboard</span></h1>
+  <p class="description">Accuracy (%), higher is better.</p>
   <div class="controls">
     <label>Search models<input id="search" type="search" placeholder="e.g. Gemini, Qwen…"></label>
     <label>Access category<select id="category"><option value="">All models</option><option>Closed-source</option><option>Open-weight</option></select></label>
+    <label>Sort by<select id="sort"></select></label>
+    <label>Order<select id="order"><option value="-1">High → low</option><option value="1">Low → high</option></select></label>
     <span id="count" role="status" aria-live="polite">Loading results…</span>
   </div>
   <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable benchmark results">
@@ -79,17 +78,21 @@
 </main>
 <script>
   const columns = [
-    ['name','Name'], ['artifact_q1','Q1'], ['artifact_all4','All Q1–4'], ['artifact_all3','All Q2–4'],
-    ['real_q1','Q1'], ['real_all4','All Q1–4'], ['real_all3','All Q2–4'],
-    ['generated_all3','All Q2–4'], ['overall_q1','Q1'], ['overall_all4','All Q1–4'], ['overall_all3','All Q2–4']
+    ['name','Name','Model name'],
+    ['artifact_q1','Q1','Artifact · Q1'], ['artifact_all4','All Q1–4','Artifact · All Q1–4'], ['artifact_all3','All Q2–4','Artifact · All Q2–4'],
+    ['real_q1','Q1','Ref-Real · Q1'], ['real_all4','All Q1–4','Ref-Real · All Q1–4'], ['real_all3','All Q2–4','Ref-Real · All Q2–4'],
+    ['generated_all3','All Q2–4','Ref-PG · All Q2–4'],
+    ['overall_q1','Q1','Overall · Q1'], ['overall_all4','All Q1–4','Overall · All Q1–4'], ['overall_all3','All Q2–4','Overall · All Q2–4']
   ];
   let models = [], sortKey = 'artifact_all4', direction = -1;
   const search = document.querySelector('#search'), category = document.querySelector('#category');
+  const sort = document.querySelector('#sort'), order = document.querySelector('#order');
   const header = document.querySelector('#columns'), body = document.querySelector('#results');
-  for (const [key, label] of columns) {
+  for (const [key, label, fullLabel] of columns) {
+    const option = document.createElement('option'); option.value = key; option.textContent = fullLabel; sort.append(option);
     const th = document.createElement('th'); th.scope = 'col'; th.dataset.key = key;
     const button = document.createElement('button'); button.type = 'button'; button.textContent = label;
-    button.setAttribute('aria-label', `Sort by ${key.replaceAll('_',' ')}`);
+    button.setAttribute('aria-label', `Sort by ${fullLabel}`);
     button.addEventListener('click', () => {
       direction = sortKey === key ? -direction : key === 'name' ? 1 : -1;
       sortKey = key; render();
@@ -97,6 +100,9 @@
     th.append(button); header.append(th);
   }
   function render() {
+    sort.value = sortKey; order.value = String(direction);
+    order.options[0].textContent = sortKey === 'name' ? 'Z → A' : 'High → low';
+    order.options[1].textContent = sortKey === 'name' ? 'A → Z' : 'Low → high';
     const query = search.value.trim().toLowerCase();
     const visible = models.filter(m => m.name.toLowerCase().includes(query) && (!category.value || m.category === category.value));
     visible.sort((a,b) => direction * (sortKey === 'name' ? a.name.localeCompare(b.name) : a.scores[sortKey] - b.scores[sortKey]) || a.name.localeCompare(b.name));
@@ -120,6 +126,8 @@
     document.querySelector('#count').textContent = `${visible.length} of ${models.length} models`;
   }
   search.addEventListener('input', render); category.addEventListener('change', render);
+  sort.addEventListener('change', () => { sortKey = sort.value; direction = sortKey === 'name' ? 1 : -1; render(); });
+  order.addEventListener('change', () => { direction = Number(order.value); render(); });
   fetch('leaderboard.json').then(r => { if (!r.ok) throw Error(r.status); return r.json(); })
     .then(data => { models = data.models; render(); })
     .catch(() => { document.querySelector('#count').textContent = 'Results could not be loaded. Please reload the page.'; });
