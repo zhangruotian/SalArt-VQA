@@ -169,6 +169,108 @@
         "overall_all4": 41.88,
         "overall_all3": 47.26
       }
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 6.53,
+        "artifact_all4": 3.16,
+        "artifact_all3": 13.05,
+        "real_q1": 100.0,
+        "real_all4": 88.48,
+        "real_all3": 88.48,
+        "generated_all3": 5.88,
+        "overall_q1": 46.57,
+        "overall_all4": 39.71,
+        "overall_all3": 40.42
+      }
+    },
+    {
+      "id": "gpt-6-sol",
+      "name": "GPT-6 Sol",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 10.74,
+        "artifact_all4": 5.47,
+        "artifact_all3": 22.95,
+        "real_q1": 100.0,
+        "real_all4": 78.37,
+        "real_all3": 78.37,
+        "generated_all3": 3.36,
+        "overall_q1": 48.98,
+        "overall_all4": 36.7,
+        "overall_all3": 41.26
+      }
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 24.0,
+        "artifact_all4": 21.05,
+        "artifact_all3": 51.58,
+        "real_q1": 100.0,
+        "real_all4": 94.66,
+        "real_all3": 94.66,
+        "generated_all3": 1.68,
+        "overall_q1": 56.56,
+        "overall_all4": 52.59,
+        "overall_all3": 61.47
+      }
+    },
+    {
+      "id": "gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 33.68,
+        "artifact_all4": 23.37,
+        "artifact_all3": 41.26,
+        "real_q1": 99.44,
+        "real_all4": 96.07,
+        "real_all3": 96.63,
+        "generated_all3": 3.36,
+        "overall_q1": 61.85,
+        "overall_all4": 54.51,
+        "overall_all3": 57.26
+      }
+    },
+    {
+      "id": "gemini-3-7-flash",
+      "name": "Gemini 3.7 Flash",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 39.58,
+        "artifact_all4": 27.16,
+        "artifact_all3": 47.79,
+        "real_q1": 99.72,
+        "real_all4": 94.94,
+        "real_all3": 94.94,
+        "generated_all3": 1.68,
+        "overall_q1": 65.34,
+        "overall_all4": 56.2,
+        "overall_all3": 59.68
+      }
+    },
+    {
+      "id": "gemini-3-5-flash-lite",
+      "name": "Gemini 3.5 Flash Lite",
+      "category": "Closed-source",
+      "scores": {
+        "artifact_q1": 22.32,
+        "artifact_all4": 7.79,
+        "artifact_all3": 21.68,
+        "real_q1": 99.44,
+        "real_all4": 39.33,
+        "real_all3": 39.33,
+        "generated_all3": 0.0,
+        "overall_q1": 55.35,
+        "overall_all4": 21.3,
+        "overall_all3": 25.58
+      }
     }
   ]
 }
