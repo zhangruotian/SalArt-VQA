@@ -43,8 +43,7 @@
     :focus-visible { outline:3px solid #72bbad; outline-offset:3px; }
     @media(max-width:600px) {
       main { padding:24px 16px; }
-      .controls { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:12px; }
-      .controls label:first-child, .controls label:nth-child(2), #count { grid-column:1 / -1; }
+      .controls { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; }
       input, select { width:100%; }
       #count { margin-left:0; }
     }
@@ -57,8 +56,6 @@
   <div class="controls">
     <label>Search models<input id="search" type="search" placeholder="e.g. Gemini, Qwen…"></label>
     <label>Access category<select id="category"><option value="">All models</option><option>Closed-source</option><option>Open-weight</option></select></label>
-    <label>Sort by<select id="sort"></select></label>
-    <label>Order<select id="order"><option value="-1">High → low</option><option value="1">Low → high</option></select></label>
     <span id="count" role="status" aria-live="polite">Loading results…</span>
   </div>
   <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable benchmark results">
@@ -86,10 +83,8 @@
   ];
   let models = [], sortKey = 'artifact_all4', direction = -1;
   const search = document.querySelector('#search'), category = document.querySelector('#category');
-  const sort = document.querySelector('#sort'), order = document.querySelector('#order');
   const header = document.querySelector('#columns'), body = document.querySelector('#results');
   for (const [key, label, fullLabel] of columns) {
-    const option = document.createElement('option'); option.value = key; option.textContent = fullLabel; sort.append(option);
     const th = document.createElement('th'); th.scope = 'col'; th.dataset.key = key;
     const button = document.createElement('button'); button.type = 'button'; button.textContent = label;
     button.setAttribute('aria-label', `Sort by ${fullLabel}`);
@@ -100,9 +95,6 @@
     th.append(button); header.append(th);
   }
   function render() {
-    sort.value = sortKey; order.value = String(direction);
-    order.options[0].textContent = sortKey === 'name' ? 'Z → A' : 'High → low';
-    order.options[1].textContent = sortKey === 'name' ? 'A → Z' : 'Low → high';
     const query = search.value.trim().toLowerCase();
     const visible = models.filter(m => m.name.toLowerCase().includes(query) && (!category.value || m.category === category.value));
     visible.sort((a,b) => direction * (sortKey === 'name' ? a.name.localeCompare(b.name) : a.scores[sortKey] - b.scores[sortKey]) || a.name.localeCompare(b.name));
@@ -126,8 +118,6 @@
     document.querySelector('#count').textContent = `${visible.length} of ${models.length} models`;
   }
   search.addEventListener('input', render); category.addEventListener('change', render);
-  sort.addEventListener('change', () => { sortKey = sort.value; direction = sortKey === 'name' ? 1 : -1; render(); });
-  order.addEventListener('change', () => { direction = Number(order.value); render(); });
   fetch('leaderboard.json').then(r => { if (!r.ok) throw Error(r.status); return r.json(); })
     .then(data => { models = data.models; render(); })
     .catch(() => { document.querySelector('#count').textContent = 'Results could not be loaded. Please reload the page.'; });
