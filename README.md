@@ -1,6 +1,6 @@
 # SalArt-VQA
 
-**Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images**
+**Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images** (NeurIPS 2026)
 
 [Paper](https://arxiv.org/abs/2606.12671) · [Benchmark](https://huggingface.co/datasets/salartvqa/SalArt-VQA) · [Leaderboard](https://zhangruotian.github.io/SalArt-VQA/)
 
