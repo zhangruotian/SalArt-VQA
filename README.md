@@ -78,9 +78,9 @@ Use one JSON object per image: `{"row_id":"salart_ee751cb2d782","q1":"yes","q2":
 ## Citation
 
 ```bibtex
-@misc{sun2026salartvqadiagnosingvlmsunderstand,
+@misc{zhang2026salartvqadiagnosingvlmsunderstand,
   title={SalArt-VQA: Diagnosing Whether VLMs Understand Salient Artifacts in Generated Images},
-  author={Xiaoxiao Sun and Ruotian Zhang and Junzhe Huang and James Burgess and Serena Yeung-Levy},
+  author={Ruotian Zhang and Xiaoxiao Sun and Junzhe Huang and James Burgess and Serena Yeung-Levy},
   year={2026},
   eprint={2606.12671},
   archivePrefix={arXiv},
