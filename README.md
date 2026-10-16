@@ -89,4 +89,4 @@ Use one JSON object per image: `{"row_id":"salart_ee751cb2d782","q1":"yes","q2":
 }
 ```
 
-Code: MIT. Dataset: [CC BY 4.0](https://huggingface.co/datasets/salartvqa/SalArt-VQA/blob/main/LICENSE).
+Code: MIT. Dataset annotations: [CC BY 4.0](https://huggingface.co/datasets/salartvqa/SalArt-VQA/blob/main/LICENSE); images retain their [source licenses](https://huggingface.co/datasets/salartvqa/SalArt-VQA/blob/main/SOURCES.md).
